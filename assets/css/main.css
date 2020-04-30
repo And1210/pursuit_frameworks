@@ -28,6 +28,11 @@ textarea {
 	color: black !important;
 }
 
+textarea.small-input {
+	min-height: 40px !important;
+	height: 40px !important;
+}
+
 textarea.black {
 	border-color: black;
 }
