@@ -2,15 +2,46 @@
 .title {
 	color: grey;
 }
-
 .subtitle {
 	color: grey;
 	font-style: italic;
+}
+.purpose-page {
+	color: green !important;
+}
+
+.encase {
+	border: 2px solid black;
+	border-radius: 20px;
+
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.encase-round {
+	border: 2px solid black;
+	border-radius: 50px;
+
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+.encase-blue {
+	border-color: blue;
+}
+
+.breathe-right {
+	width: 100%;
+	margin-right: 10px;
+}
+.breathe-left {
+	width: 100%;
+	margin-left: 10px;
 }
 
 /* Body */
 body {
 	padding-top: 20px;
+
+	font-size: 16px !important;
 }
 
 hr.title-line {
@@ -27,26 +58,41 @@ textarea {
 	font-size: 12px !important;
 	color: black !important;
 }
-
 textarea.small-input {
 	min-height: 40px !important;
 	height: 40px !important;
 }
-
+textarea.large-input {
+	min-height: 300px !important;
+	height: 300px !important;
+}
+textarea.no-border {
+	border-style: none;
+}
 textarea.black {
 	border-color: black;
 }
-
 textarea.blue {
 	border-color: blue;
 }
-
 textarea.red {
 	border-color: red;
 }
-
 textarea.green {
 	border-color: green;
+}
+textarea.grey {
+	border-color: grey;
+}
+textarea.pink {
+	border-color: pink;
+}
+textarea.orange {
+	border-color: orange;
+}
+
+input.black {
+	border: 1px solid black;
 }
 
 /* Footer */
@@ -55,5 +101,5 @@ hr.footer-line {
 }
 
 p.copyright {
-	font-size: 10px;
+	font-size: 8px;
 }

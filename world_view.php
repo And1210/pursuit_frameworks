@@ -15,6 +15,7 @@
 
 		<div class="container">
 			<hr class="title-line">
+			
 			<!-- Title Row 1 -->
 			<div class="row" align="center">
 				<div class="col-sm-6">
@@ -196,13 +197,13 @@
 			<div class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-4 d-flex flex-column">
-					<input type="text">
+					<input type="text" class="black">
 				</div>
 				<div class="col-sm-2" align="center">
 					<img src="assets/img/globe.png" height=50>
 				</div>
 				<div class="col-sm-4 d-flex flex-column">
-					<input type="text">
+					<input type="text" class="black">
 				</div>
 				<div class="col-sm-1"></div>
 			</div>
@@ -211,7 +212,7 @@
 				<div class="col-sm-3"></div>
 				<div class="col-sm-6 d-flex flex-column">
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1 small-input	black"></textarea>
+						<textarea class="form-control flex-grow-1 small-input	grey"></textarea>
 					</div>
 				</div>
 				<div class="col-sm-3"></div>
@@ -226,8 +227,8 @@
 				<div class="col-sm-2">
 					<img src="assets/img/logo.png" height=40>
 				</div>
-				<div class="col-sm-6"></div>
-				<div class="col-sm-4">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
 					<p class="copyright"><br>Copyright &copy; 2007-2020 Pursuit
 						Development Labs Inc. All Rights Reserved.</p>
 				</div>
