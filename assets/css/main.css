@@ -91,6 +91,13 @@ textarea.orange {
 	border-color: orange;
 }
 
+input.title-border {
+	border: 0;
+	border-bottom: 1px solid black;
+}
+input.no-border {
+	border-style: none;
+}
 input.black {
 	border: 1px solid black;
 }
