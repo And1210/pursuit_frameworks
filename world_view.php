@@ -41,7 +41,7 @@
 			<div class="row">
 				<div class="col-md-2 d-flex flex-column">
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1	black"></textarea>
+						<textarea class="form-control flex-grow-1	black" id="feel_neg"></textarea>
 					</div>
 				</div>
 
@@ -50,12 +50,12 @@
 					<div class="row">
 						<div class="col-md-6 d-flex flex-column">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black"></textarea>
+								<textarea class="form-control flex-grow-1	black" id="big_world_neg"></textarea>
 							</div>
 						</div>
 						<div class="col-md-6 d-flex flex-column">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black"></textarea>
+								<textarea class="form-control flex-grow-1	black" id="big_world_pos"></textarea>
 							</div>
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 								<div class="col-md-1"></div>
 								<div class="col-md-11 d-flex flex-column">
 									<div class="form-group flex-grow-1 d-flex flex-column">
-										<textarea class="form-control flex-grow-1	blue"></textarea>
+										<textarea class="form-control flex-grow-1	blue" id="world_communities_neg"></textarea>
 									</div>
 								</div>
 							</div>
@@ -76,7 +76,7 @@
 							<div class="row">
 								<div class="col-md-11 d-flex flex-column">
 									<div class="form-group flex-grow-1 d-flex flex-column">
-										<textarea class="form-control flex-grow-1	blue"></textarea>
+										<textarea class="form-control flex-grow-1	blue" id="world_communities_pos"></textarea>
 									</div>
 								</div>
 								<div class="col-md-1"></div>
@@ -87,7 +87,7 @@
 
 				<div class="col-md-2 d-flex flex-column">
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1	black"></textarea>
+						<textarea class="form-control flex-grow-1	black" id="feel_pos"></textarea>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@
 			<div class="row">
 				<div class="col-md-2 d-flex flex-column">
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea style="width: 135%;" class="form-control flex-grow-1	black"></textarea>
+						<textarea style="width: 135%;" class="form-control flex-grow-1 black" id="react_neg"></textarea>
 					</div>
 				</div>
 
@@ -118,12 +118,12 @@
 						<div class="col-md-1"></div>
 						<div class="col-md-5 d-flex flex-column">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	red"></textarea>
+								<textarea class="form-control flex-grow-1	red" id="work_world_neg"></textarea>
 							</div>
 						</div>
 						<div class="col-md-5 d-flex flex-column">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	red"></textarea>
+								<textarea class="form-control flex-grow-1	red" id="work_world_pos"></textarea>
 							</div>
 						</div>
 						<div class="col-md-1"></div>
@@ -132,7 +132,7 @@
 
 				<div class="col-md-2 d-flex flex-column">
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea style="width: 135%; position: relative; left: -35%;" class="form-control flex-grow-1	black"></textarea>
+						<textarea style="width: 135%; position: relative; left: -35%;" class="form-control flex-grow-1 black" id="respond_pos"></textarea>
 					</div>
 				</div>
 			</div>
@@ -162,12 +162,12 @@
 					<div class="row">
 						<div class="col-md-6 d-flex flex-column">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	green"></textarea>
+								<textarea class="form-control flex-grow-1	green" id="personal_world_neg"></textarea>
 							</div>
 						</div>
 						<div class="col-md-6 d-flex flex-column">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	green"></textarea>
+								<textarea class="form-control flex-grow-1	green" id="personal_world_pos"></textarea>
 							</div>
 						</div>
 					</div>
@@ -197,13 +197,13 @@
 			<div class="row">
 				<div class="col-md-1"></div>
 				<div class="col-md-4 d-flex flex-column">
-					<input type="text" class="black">
+					<input type="text" class="black" id="position_neg">
 				</div>
 				<div class="col-md-2" align="center">
 					<img src="assets/img/globe.png" height=50>
 				</div>
 				<div class="col-md-4 d-flex flex-column">
-					<input type="text" class="black">
+					<input type="text" class="black" id="position_pos">
 				</div>
 				<div class="col-md-1"></div>
 			</div>
@@ -212,7 +212,7 @@
 				<div class="col-md-3"></div>
 				<div class="col-md-6 d-flex flex-column">
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1 small-input	grey"></textarea>
+						<textarea class="form-control flex-grow-1 small-input	grey" id="thoughts"></textarea>
 					</div>
 				</div>
 				<div class="col-md-3"></div>
@@ -232,6 +232,7 @@
 					<p class="copyright"><br>Copyright &copy; 2007-2020 Pursuit
 						Development Labs Inc. All Rights Reserved.</p>
 				</div>
+				<br><br>
 			</div>
 		</div>
 	</footer>

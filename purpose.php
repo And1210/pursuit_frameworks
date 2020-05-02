@@ -21,25 +21,25 @@
 				<div class="col-md-3 d-flex flex-column">
 					<h6 class="subtitle purpose-page"><b>Hope</b></h6>
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1	pink"></textarea>
+						<textarea class="form-control flex-grow-1	pink" id="hope"></textarea>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex flex-column">
 					<h6 class="subtitle purpose-page"><b>Doings</b></h6>
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1	orange"></textarea>
+						<textarea class="form-control flex-grow-1	orange" id="doings"></textarea>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex flex-column">
 					<h6 class="subtitle purpose-page"><b>Creations</b></h6>
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1 orange"></textarea>
+						<textarea class="form-control flex-grow-1 orange" id="creations"></textarea>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex flex-column">
 					<h6 class="subtitle purpose-page" align="center"><b>Intentions</b></h6>
 					<div class="form-group flex-grow-1 d-flex flex-column">
-						<textarea class="form-control flex-grow-1	green"></textarea>
+						<textarea class="form-control flex-grow-1	green" id="intentions"></textarea>
 					</div>
 				</div>
 			</div>
@@ -51,15 +51,15 @@
 						<h6 class="subtitle purpose-page"><b>Purpose Statment Draft #1</b></h6>
 						<div class="subtitle" align="left">I exist to...</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="What? [Intent]"></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="What? [Intent]" id="exist_to"></textarea>
 						</div>
 						<div class="subtitle" align="left">That results in...</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="What? [Hope]"></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="What? [Hope]" id="results_in"></textarea>
 						</div>
 						<div class="subtitle" align="left">For myself & others...</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="By Doing & Creating What?"></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="By Doing & Creating What?" id="myself_others"></textarea>
 						</div>
 					</div>
 				</div>
@@ -68,11 +68,11 @@
 					<div class="encase-round encase-blue breathe-left">
 						<h6 class="subtitle purpose-page"><b>My Purpose Statement</b> (Working Draft)</h6>
 						<div class="form-group flex-grow-1 d-flex flex-column" style="padding-left: 15px; padding-right: 15px;">
-							<textarea class="form-control flex-grow-1	no-border large-input"></textarea>
+							<textarea class="form-control flex-grow-1	no-border large-input" id="purpose_statement"></textarea>
 						</div>
 					</div>
 					<h6 class="subtitle purpose-page"><b>Purpose Statment Handle</b></h6>
-					<input type="text" class="black" style="width: 75%;">
+					<input type="text" class="black" style="width: 75%;" id="handle">
 				</div>
 			</div>
 

@@ -20,23 +20,23 @@
 				<div class="col-md-4 d-flex flex-column">
 					<div class="encase encase-blue breathe-right" style="padding: 10px;">
 						<label class="subtitle" align="left"><b>1</b> Title: </label>
-						<input type="text" class="title-border">
+						<input type="text" class="title-border" id="title1">
 						<div class="form-group flex-grow-1 d-flex flex-column">
 							<textarea class="form-control flex-grow-1	black" placeholder="Description"></textarea>
 						</div>
 						<label class="subtitle" align="left">Meaningfulness: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To You..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To You..." id="meaningfulness_you1"></textarea>
 						</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To Others..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To Others..." id="meaningfulness_other1"></textarea>
 						</div>
 						<label class="subtitle" align="left">Impact: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To You..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To You..." id="impact_you1"></textarea>
 						</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To Others..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To Others..." id="impact_other1"></textarea>
 						</div>
 					</div>
 				</div>
@@ -44,23 +44,23 @@
 				<div class="col-md-4 d-flex flex-column">
 					<div class="encase encase-blue breathe-right" style="padding: 10px;">
 						<label class="subtitle" align="left"><b>2</b> Title: </label>
-						<input type="text" class="title-border">
+						<input type="text" class="title-border" id="title1">
 						<div class="form-group flex-grow-1 d-flex flex-column">
 							<textarea class="form-control flex-grow-1	black" placeholder="Description"></textarea>
 						</div>
 						<label class="subtitle" align="left">Meaningfulness: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To You..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To You..." id="meaningfulness_you2"></textarea>
 						</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To Others..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To Others..." id="meaningfulness_other2"></textarea>
 						</div>
 						<label class="subtitle" align="left">Impact: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To You..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To You..." id="impact_you2"></textarea>
 						</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To Others..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To Others..." id="impact_other2"></textarea>
 						</div>
 					</div>
 				</div>
@@ -68,23 +68,23 @@
 				<div class="col-md-4 d-flex flex-column">
 					<div class="encase encase-blue breathe-right" style="padding: 10px;">
 						<label class="subtitle" align="left"><b>3</b> Title: </label>
-						<input type="text" class="title-border">
+						<input type="text" class="title-border" id="title1">
 						<div class="form-group flex-grow-1 d-flex flex-column">
 							<textarea class="form-control flex-grow-1	black" placeholder="Description"></textarea>
 						</div>
 						<label class="subtitle" align="left">Meaningfulness: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To You..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To You..." id="meaningfulness_you3"></textarea>
 						</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To Others..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To Others..." id="meaningfulness_other3"></textarea>
 						</div>
 						<label class="subtitle" align="left">Impact: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To You..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To You..." id="impact_you3"></textarea>
 						</div>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="To Others..."></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="To Others..." id="impact_other3"></textarea>
 						</div>
 					</div>
 				</div>
@@ -93,7 +93,7 @@
 			<div class="row">
 				<div class="col-md-12 d-flex flex-column encase-round encase-blue">
 					<div class="form-group flex-grow-1 d-flex flex-column" style="padding-left: 25px; padding-right: 25px;">
-						<textarea class="form-control flex-grow-1	no-border" placeholder="What these were fundamentally about..."></textarea>
+						<textarea class="form-control flex-grow-1	no-border" placeholder="What these were fundamentally about..." id="fundamental"></textarea>
 					</div>
 				</div>
 			</div>
