@@ -1,4 +1,13 @@
-<h6 class="subtitle"<html>
+<?php
+	session_start();
+
+	if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false || !isset($_SESSION["loggedin"])){
+		header("location: login.php");
+		exit;
+	}
+?>
+
+<html>
 
 	<head>
 		<title>My World View</title>

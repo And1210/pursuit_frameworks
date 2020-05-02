@@ -1,3 +1,12 @@
+<?php
+	session_start();
+
+	if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false || !isset($_SESSION["loggedin"])){
+		header("location: login.php");
+		exit;
+	}
+?>
+
 <html>
 
 	<head>
@@ -8,6 +17,8 @@
 
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery-3.5.0.min.js"></script>
+
+		<script src="assets/js/me.js"></script>
 	</head>
 
 	<body>
@@ -22,7 +33,7 @@
 						<label class="subtitle" align="left"><b>1</b> Title: </label>
 						<input type="text" class="title-border" id="title1">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="Description"></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="Description" id="description1"></textarea>
 						</div>
 						<label class="subtitle" align="left">Meaningfulness: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
@@ -44,9 +55,9 @@
 				<div class="col-md-4 d-flex flex-column">
 					<div class="encase encase-blue breathe-right" style="padding: 10px;">
 						<label class="subtitle" align="left"><b>2</b> Title: </label>
-						<input type="text" class="title-border" id="title1">
+						<input type="text" class="title-border" id="title2">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="Description"></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="Description"id="description2"></textarea>
 						</div>
 						<label class="subtitle" align="left">Meaningfulness: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
@@ -68,9 +79,9 @@
 				<div class="col-md-4 d-flex flex-column">
 					<div class="encase encase-blue breathe-right" style="padding: 10px;">
 						<label class="subtitle" align="left"><b>3</b> Title: </label>
-						<input type="text" class="title-border" id="title1">
+						<input type="text" class="title-border" id="title3">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" placeholder="Description"></textarea>
+							<textarea class="form-control flex-grow-1	black" placeholder="Description" id="description3"></textarea>
 						</div>
 						<label class="subtitle" align="left">Meaningfulness: </label>
 						<div class="form-group flex-grow-1 d-flex flex-column">
