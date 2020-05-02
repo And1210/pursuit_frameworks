@@ -7,7 +7,7 @@ create table user (
   lname varchar(30) NOT NULL,
   email varchar(30) NOT NULL,
   password char(64) NOT NULL,
-  access integer NOT NULL,
+  access integer NOT NULL, --0 is highest level, 4 is user level
   primary key(id)
 );
 
@@ -72,7 +72,7 @@ create table world_view (
   personal_world_neg varchar(250),
   personal_world_pos varchar(250),
   impact_pos varchar(250),
-  position_pos varchar(100),
+  position_neg varchar(100),
   position_pos varchar(100),
   thoughts  varchar(500),
 

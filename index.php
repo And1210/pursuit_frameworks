@@ -1,3 +1,12 @@
+<?php
+	session_start();
+
+	if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false || !isset($_SESSION["loggedin"])){
+		header("location: login.php");
+		exit;
+	}
+?>
+
 <html>
 
 	<head>
@@ -20,14 +29,15 @@
 		<a href="/me.php">Me</a>
 
 		<br><br>
-		<label for="username">Username</label>
-		<input type="text" name="username" id="username"><br>
-		<label for="password">Password</label>
-		<input type="password" name="password" id="password"><br>
-
-		<input type="button" id="login" value="Login">
 
 		<div id="test"></div>
+
+		<?php
+			if (isset($_SESSION["id"])) {
+				echo $_SESSION["id"];
+			}
+		?>
+
 
 	</body>
 
