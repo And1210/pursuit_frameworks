@@ -16,4 +16,24 @@
 
   // Finally, destroy the session.
   session_destroy();
-  ?>
+?>
+
+<html>
+
+
+  <head>
+    <title>Pursuit Inc.</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.5.0.min.js"></script>
+  </head>
+
+  <body>
+    <p>You have successfully logged out</p>
+    <a href="/">Home</a>
+  </body>
+
+</html>

@@ -17,6 +17,8 @@
 
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery-3.5.0.min.js"></script>
+
+		<script src="assets/js/purpose.js"></script>
 	</head>
 
 	<body>

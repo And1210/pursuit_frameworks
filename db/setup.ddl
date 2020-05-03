@@ -39,7 +39,7 @@ create table me (
   foreign key(user_id) references user(id)
 );
 
-create table form (
+create table purpose (
   id integer NOT NULL AUTO_INCREMENT,
   user_id integer NOT NULL,
 

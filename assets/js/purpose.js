@@ -1,4 +1,4 @@
-let variables = ['feel_neg', 'big_world_neg', 'big_world_pos', 'world_communities_neg', 'world_communities_pos', 'feel_pos', 'react_neg', 'work_world_neg', 'work_world_pos', 'respond_pos', 'impact_neg', 'personal_world_neg', 'personal_world_pos', 'impact_pos', 'position_neg', 'position_pos', 'thoughts'];
+let variables = ['hope', 'doings', 'creations', 'intentions', 'exist_to', 'results_in', 'myself_others', 'purpose_statement', 'handle'];
 
 $(document).ready(() => {
   $('#save').click(() => {
@@ -20,7 +20,7 @@ function save() {
     input_data.push($(a).val());
   }
 
-  let dataString = "form=world_view&";
+  let dataString = "form=purpose&";
   for (let i in inputs) {
     let end = i >= inputs.length-1 ? '' : '&';
     let data = input_data[i]==undefined ? '' : input_data[i];
@@ -44,7 +44,7 @@ function load() {
   $.ajax({
     type: 'POST',
     url: '/handlers/form_request_handler.php',
-    data: 'form=world_view',
+    data: 'form=purpose',
     success: (data) => {
       if (data == false) {
         console.log("No data to load");
