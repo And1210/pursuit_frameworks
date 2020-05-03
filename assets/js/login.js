@@ -24,7 +24,7 @@ function login() {
       $('#test').html(data);
       let jsonData = JSON.parse(data);
       if (jsonData.success === true) {
-        window.location.reload();
+        window.location.href="index.php";
       }
     },
     fail: (data) => {
