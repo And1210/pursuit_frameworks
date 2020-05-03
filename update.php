@@ -16,7 +16,7 @@
 <html>
 
 	<head>
-		<title>Register</title>
+		<title>Update</title>
 
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -25,20 +25,25 @@
 		<script src="assets/js/jquery-3.5.0.min.js"></script>
 		<script src="assets/js/sjcl.min.js"></script>
 
-    <script src="assets/js/register.js"></script>
+    <script src="assets/js/update.js"></script>
 	</head>
 
   <body>
+    <label for="get_user">Enter User's Current Email</label>
+    <input type="text" name="get_user" id="get_user">
+    <input type="button" id="get_data" value="Get Data"><br><br>
+
+    <i><p>Leave blank to not change</p></i>
     <label for="fname">First Name: </label>
     <input type="text" name="fname" id="fname"><br>
     <label for="lname">Last Name: </label>
     <input type="text" name="lname" id="lname"><br>
     <label for="email">Email: </label>
     <input type="text" name="email" id="email"><br>
-    <label for="password">Initial Password: </label>
+    <label for="password">Update Password: </label>
     <input name="password" id="password"><br>
 
-    <input type="button" id="register" value="Register">
+    <input type="button" id="update" value="Update">
 
     <br><br>
     <i><div id="result"></div></i>

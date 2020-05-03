@@ -23,12 +23,9 @@ function register() {
     url: '/handlers/register_handler.php',
     data: dataString,
     success: (data) => {
-      $('#test').html(data);
-      console.log(data);
-      // let jsonData = JSON.parse(data);
-      // if (jsonData.success === true) {
-      //   window.location.reload();
-      // }
+      let jsonData = JSON.parse(data);
+      $("#result").html(jsonData.msg);
+      alert(jsonData.msg);
     },
     fail: (data) => {
       console.log(data);

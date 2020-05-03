@@ -36,7 +36,7 @@ create table me (
   fundamental varchar(750),
 
   primary key(id),
-  foreign key(user_id) references user(id)
+  foreign key(user_id) references user(id) ON DELETE CASCADE
 );
 
 create table purpose (
@@ -54,7 +54,7 @@ create table purpose (
   handle varchar(100),
 
   primary key(id),
-  foreign key(user_id) references user(id)
+  foreign key(user_id) references user(id) ON DELETE CASCADE
 );
 
 create table world_view (
@@ -80,7 +80,7 @@ create table world_view (
   thoughts  varchar(500),
 
   primary key(id),
-  foreign key(user_id) references user(id)
+  foreign key(user_id) references user(id) ON DELETE CASCADE
 );
 
 create table lighthouse (
@@ -100,7 +100,7 @@ create table lighthouse (
   truly_want varchar(100),
 
   primary key(id),
-  foreign key(user_id) references user(id)
+  foreign key(user_id) references user(id) ON DELETE CASCADE
 );
 
 -- create table form (
