@@ -32,9 +32,9 @@
 
 	<body>
 
-    <label for="email">Username</label>
+    <label for="email">Email: </label>
     <input type="text" name="email" id="email"><br>
-    <label for="password">Password</label>
+    <label for="password">Password: </label>
     <input type="password" name="password" id="password"><br>
 
     <input type="button" id="login" value="Login">
