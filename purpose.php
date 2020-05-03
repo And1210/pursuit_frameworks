@@ -5,6 +5,24 @@
 		header("location: login.php");
 		exit;
 	}
+
+	if(isset($_GET["id"])) {
+		if (isset($_SESSION["access_level"]) && $_SESSION["access_level"] == 0) {
+			$_SESSION["selected_id"] = $_GET["id"];
+		} else {
+			if (isset($_SESSION["id"])) {
+				if ($_GET["id"] !== $_SESSION["id"]) {
+					unset($_SESSION["selected_id"]);
+		      echo "<script>alert(\"You do not have access to this page\"); window.location.href=\"index.php\";</script>";
+				}
+			} else {
+				unset($_SESSION["selected_id"]);
+	      echo "<script>alert(\"You do not have access to this page\"); window.location.href=\"index.php\";</script>";
+			}
+		}
+	} else {
+		unset($_SESSION["selected_id"]);
+	}
 ?>
 
 <html>

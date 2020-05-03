@@ -4,7 +4,11 @@
   require_once "../db/config.php";
 
   function getQuery($form, $link) {
-    $query_sel = "SELECT * from ".$_POST["form"]." where user_id=".$_SESSION["id"];
+    $id = $_SESSION["id"];
+    if (isset($_SESSION["selected_id"])) {
+      $id = $_SESSION["selected_id"];
+    }
+    $query_sel = "SELECT * from ".$_POST["form"]." where user_id=".$id;
     $conn_sel = $link->prepare($query_sel);
     $conn_sel->execute();
     $row_sel = $conn_sel->fetch();
@@ -20,7 +24,7 @@
         }
         $count = $count + 1;
       }
-      $query = $query.") VALUES(".$_SESSION["id"].",";
+      $query = $query.") VALUES(".$id.",";
       $count = 0;
       foreach($_POST as $key => $val) {
         if ($val !== $form) {
@@ -45,7 +49,7 @@
         }
         $count = $count + 1;
       }
-      $query = $query." WHERE user_id=".$_SESSION["id"];
+      $query = $query." WHERE user_id=".$id;
       return $query;
     }
   }

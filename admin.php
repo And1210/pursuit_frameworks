@@ -43,6 +43,12 @@
       </div>
       <div class="row">
         <div class="col-md-12">
+          <h5>View a User's Forms</h5>
+          <iframe src="admin_view.php" height=300 frameBorder="0" style="width: 100%;"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
           <h5>Update a User's Settings</h5>
           <iframe src="update.php" height=500 frameBorder="0" style="width: 100%;"></iframe>
         </div>
