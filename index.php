@@ -56,22 +56,22 @@
 			</div>
 		</header>
 
-		<a href="/world_view.php">My World View</a>
-		<a href="/lighthouse.php">Lighthouse</a>
-		<a href="/purpose.php">Purpose</a>
-		<a href="/me.php">Me</a>
+		<div class="body_content">
+			<a href="/world_view.php">My World View</a>
+			<a href="/lighthouse.php">Lighthouse</a>
+			<a href="/purpose.php">Purpose</a>
+			<a href="/me.php">Me</a>
 
-		<br><br>
+			<br><br>
 
-		<div id="test"></div>
+			<div id="test"></div>
 
-		<?php
-			if (isset($_SESSION["id"])) {
-				echo $_SESSION["id"];
-			}
-		?>
-
-
+			<?php
+				if (isset($_SESSION["id"])) {
+					echo $_SESSION["id"];
+				}
+			?>
+		</div>
 	</body>
 
 </html>
