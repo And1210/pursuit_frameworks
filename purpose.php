@@ -35,7 +35,9 @@
 
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery-3.5.0.min.js"></script>
+		<!-- <script src="assets/js/jspdf.min.js"></script>
 
+		<script src="assets/js/pdf_save.js"></script> -->
 		<script src="assets/js/purpose.js"></script>
 	</head>
 
@@ -140,6 +142,11 @@
 					</div>
 				</div>
 
+				<div class="row">
+					<div class="col-md-12" align="center">
+						<a class="save-link" href="javascript:save()">Save</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>

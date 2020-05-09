@@ -79,7 +79,7 @@ function update() {
     url: '/handlers/update_handler.php',
     data: dataString,
     success: (data) => {
-      console.log(data);
+      // console.log(data);
       // let jsonData = JSON.parse(data);
       // $("#result").html(jsonData.msg);
       // alert(jsonData.msg);

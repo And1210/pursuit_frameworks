@@ -12,22 +12,31 @@
   $res->id = -1;
   $res->access = -1;
 
-  if (isset($_POST["email"])) {
-    $query = "SELECT * FROM user WHERE email=\"".$_POST["email"]."\"";
+  if (isset($_POST["email"]) || isset($_POST["id"])) {
+    $query = "SELECT * FROM user WHERE ";
+    if (isset($_POST["email"])) {
+      $query = $query."email=\"".$_POST["email"]."\"";
+    } else {
+      $query = $query."id=\"".$_POST["id"]."\"";
+    }
     $conn = $link->prepare($query);
     $suc = $conn->execute();
 
     $row = $conn->fetch();
     if (gettype($row) !== gettype(false)) {
       $res->success = true;
-      $res->msg = "User with email ".$_POST["email"]." selected";
+      if (isset($_POST["email"])) {
+        $res->msg = "User with email ".$_POST["email"]." selected";
+      } else {
+        $res->msg = "User with id ".$_POST["id"]." selected";
+      }
 
+      $res->email = $row["email"];
       $res->fname = $row["fname"];
       $res->lname = $row["lname"];
       $res->id = $row["id"];
       $res->access = $row["access"];
     }
-    $res->email = $_POST["email"];
   }
 
   echo json_encode($res);

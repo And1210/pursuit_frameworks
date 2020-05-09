@@ -24,6 +24,15 @@
 	padding-top: 10px;
 	margin-bottom: 20px;
 }
+.encase-bg {
+	border: none;
+	border-radius: 30px;
+	background: lightgrey;
+
+	width: 75%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .encase-blue {
 	border-color: blue;
 }
@@ -37,9 +46,42 @@
 	margin-left: 10px;
 }
 
+.index-link {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+
+	text-decoration: none;
+	color: black;
+}
+
+.save-link {
+	padding: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 20px;
+
+	font-size: 16;
+	font-weight: bold;
+
+	background-color: red !important;
+	text-decoration: none;
+	color: white!important;
+}
+.save-link:hover {
+	background-color: #ff8080 !important;
+	cursor: pointer;
+}
+
 .body_content {
 	position: relative;
 	top: 60px;
+}
+
+.oval {
+	width: 100%;
+	height: 100%;
+	border: 2px solid black !important;
+	border-radius: 50%;
 }
 
 /* Body */

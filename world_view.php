@@ -36,7 +36,7 @@
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery-3.5.0.min.js"></script>
 
-		<script src"assets/js/world_view.js"></script>
+		<script src="assets/js/world_view.js"></script>
 	</head>
 
 	<body>
@@ -280,6 +280,12 @@
 						</div>
 					</div>
 					<div class="col-md-3"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12" align="center">
+						<a class="save-link" href="javascript:save()">Save</a>
+					</div>
 				</div>
 			</div>
 		</div>

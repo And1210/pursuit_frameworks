@@ -32,6 +32,7 @@ function save() {
     url: '/handlers/form_submit_handler.php',
     data: dataString,
     success: (data) => {
+      alert(data);
       console.log(data);
     },
     fail: (data) => {

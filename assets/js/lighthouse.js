@@ -1,4 +1,4 @@
-let variables = ['hope', 'doings', 'creations', 'intentions', 'exist_to', 'results_in', 'myself_others', 'purpose_statement', 'handle'];
+let variables = ['impact_others', 'effect_me', 'potential', 'space', 'show_up', 'contribution', 'meaningful_me', 'meaningful_experience', 'handle', 'my_choice', 'truly_want'];
 
 $(document).ready(() => {
   $('#save').click(() => {
@@ -20,7 +20,7 @@ function save() {
     input_data.push($(a).val());
   }
 
-  let dataString = "form=purpose&";
+  let dataString = "form=lighthouse&";
   for (let i in inputs) {
     let end = i >= inputs.length-1 ? '' : '&';
     let data = input_data[i]==undefined ? '' : input_data[i];
@@ -32,8 +32,8 @@ function save() {
     url: '/handlers/form_submit_handler.php',
     data: dataString,
     success: (data) => {
-      // console.log(data);
       alert(data);
+      // console.log(data);
     },
     fail: (data) => {
       console.log(data);
@@ -45,7 +45,7 @@ function load() {
   $.ajax({
     type: 'POST',
     url: '/handlers/form_request_handler.php',
-    data: 'form=purpose',
+    data: 'form=lighthouse',
     success: (data) => {
       if (data == false) {
         console.log("No data to load");
