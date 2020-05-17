@@ -2,6 +2,10 @@
 .title {
 	color: grey;
 }
+.title-sm {
+	color: grey;
+	font-size: 10pt;
+}
 .subtitle {
 	color: grey;
 	font-style: italic;
@@ -84,6 +88,10 @@
 	border-radius: 50%;
 }
 
+.flush {
+	padding: 0px !important;
+}
+
 /* Body */
 body {
 	padding-top: 20px;
@@ -107,11 +115,15 @@ textarea {
 }
 textarea.small-input {
 	min-height: 40px !important;
-	height: 40px !important;
+	height: 40px;
+}
+textarea.medium-input {
+	min-height: 70px !important;
+	height: 70px;
 }
 textarea.large-input {
 	min-height: 300px !important;
-	height: 300px !important;
+	height: 300px;
 }
 textarea.no-border {
 	border-style: none;
@@ -138,9 +150,14 @@ textarea.orange {
 	border-color: orange;
 }
 
+input {
+	font-size: 12px !important;
+	color: black !important;
+}
 input.title-border {
 	border: 0;
 	border-bottom: 1px solid black;
+	width: 80%;
 }
 input.no-border {
 	border-style: none;
@@ -156,6 +173,11 @@ hr.footer-line {
 
 p.copyright {
 	font-size: 8px;
+}
+p.hint {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* Header */
@@ -216,7 +238,11 @@ p.copyright {
   text-align: left;
 }
 
-.header-area .main-nav .dropdown-content a:hover {
+a:hover  {
+	color: darkblue !important;
+}
+
+.header-area .main-nav .dropdown-content {
   background-color: #ffffff;
 }
 

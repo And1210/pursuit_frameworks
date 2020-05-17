@@ -23,7 +23,7 @@ function load_profile() {
         $('#email').html(jsonData.email);
         let admin = jsonData.access;
         if (admin === "0") {
-          $('#admin').html("You are an admin");
+          $('#admin').html("<div align=\"center\" class=\"encase-bg\" style=\"width: 25%;\"><a href=\"admin.php\" class=\"index-link\">Admin</a></div>");
         } else {
           $('#admin').html('');
         }

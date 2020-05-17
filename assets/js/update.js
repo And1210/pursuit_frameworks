@@ -10,6 +10,10 @@ $(document).ready(() => {
     update();
   });
 
+  $('#delete').click(() => {
+    delete_user();
+  });
+
   document.getElementById('email').addEventListener("keyup", key_update);
   document.getElementById('password').addEventListener("keyup", key_update);
 });
@@ -98,4 +102,34 @@ function key_update(event) {
     // Trigger the button element with a click
     update();
   }
+}
+
+function delete_user() {
+  if (cur_user == "") {
+      alert("Please select a user first");
+      return;
+  }
+
+  let dataString = "id="+cur_user;
+
+  $.ajax({
+    type: 'POST',
+    url: '/handlers/delete_handler.php',
+    data: dataString,
+    success: (data) => {
+      jsonData = JSON.parse(data);
+      alert(jsonData.msg);
+      if (jsonData.success == true) {
+        $('#fname').val('');
+        $('#lname').val('');
+        $('#email').val('');
+        $('#password').val('');
+        $('#get_user').val('');
+        cur_user = "";
+      }
+    },
+    fail: (data) => {
+      console.log(data);
+    }
+  });
 }

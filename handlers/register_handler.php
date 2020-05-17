@@ -16,7 +16,7 @@
   //   echo "$key: $value <br>";
   // }
 
-  if (isset($_POST["fname"]) && isset($_POST["lname"]) && isset($_POST["email"]) && isset($_POST["password"])) { //valid input
+  if (isset($_POST["fname"]) && isset($_POST["lname"]) && isset($_POST["email"]) && isset($_POST["password"]) && isset($_SESSION["id"])) { //valid input
     $query_sel = "SELECT * from user where email=\"".$_POST["email"]."\"";
     $conn_sel = $link->prepare($query_sel); //sanitizes inputs
     $conn_sel->execute();
@@ -37,8 +37,8 @@
       $res->id = 4;
       $res->success = true;
 
-      $query = "INSERT INTO user (fname, lname, email, password, access) ".
-        "VALUES(\"".$_POST["fname"]."\", \"".$_POST["lname"]."\", \"".$_POST["email"]."\", \"".$_POST["password"]."\", 4)";
+      $query = "INSERT INTO user (fname, lname, email, password, access, created_by) ".
+        "VALUES(\"".$_POST["fname"]."\", \"".$_POST["lname"]."\", \"".$_POST["email"]."\", \"".$_POST["password"]."\", 4, ".$_SESSION["id"].")";
       $conn = $link->prepare($query);
       $suc = $conn->execute();
       if ($suc == true) {

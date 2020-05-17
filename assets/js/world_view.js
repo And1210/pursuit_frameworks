@@ -54,7 +54,13 @@ function load() {
 
       let json = JSON.parse(data);
       for (let v of variables) {
-        $('#'+v).val(json[v]);
+        if (v == "impact_neg" || v == "impact_pos") {
+          if (json[v] == '') {
+            $('#'+v).val("Me: \nOthers: \nWorld: ");
+          }
+        } else {
+          $('#'+v).val(json[v]);
+        }
       }
     },
     fail: (data) => {

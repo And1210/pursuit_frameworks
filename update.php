@@ -44,6 +44,7 @@
     <input name="password" id="password"><br>
 
     <input type="button" id="update" value="Update">
+		<input type="button" id="delete" value="Delete">
 
     <br><br>
     <i><div id="result"></div></i>

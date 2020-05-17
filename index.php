@@ -31,21 +31,18 @@
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
 								<img src="assets/img/logo.png" height=40/>
-
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
 							<ul class="nav">
 								<li><a href="./index.php" class="active">Home</a></li>
 								<li class="dropdown">
-									<a class="dropbtn">Frameworks
-										<i class="fa fa-caret-down"></i>
-									</a>
+									<a class="dropbtn">Frameworks</a>
 									<div class="dropdown-content">
-										<a href="./world_view.php">World View</a>
-										<a href="./me.php">Me</a>
-										<a href="./purpose.php">Purpose</a>
-										<a href="./lighthouse.php">Lighthouse</a>
+										<a href="./me.php">My Meaningful Experiences</a>
+										<a href="./purpose.php">My Purpose</a>
+										<a href="./world_view.php">My World View</a>
+										<a href="./lighthouse.php">My Proactive Stand</a>
 									</div>
 								</li>
 								<li><a href="./login.php">Login/Logout</a></li>
@@ -68,22 +65,22 @@
 					<div class="row" align="center">
 						<div class="col-md-3">
 							<div class="encase-bg">
+								<a href="/me.php" class="index-link">My Meaningful Experiences</a>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="encase-bg">
+								<a href="/purpose.php" class="index-link">My Purpose</a>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="encase-bg">
 								<a href="/world_view.php" class="index-link">My World View</a>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="encase-bg">
-								<a href="/lighthouse.php" class="index-link">Lighthouse</a>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="encase-bg">
-								<a href="/purpose.php" class="index-link">Purpose</a>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="encase-bg">
-								<a href="/me.php" class="index-link">Me</a>
+								<a href="/lighthouse.php" class="index-link">My Proactive Stand</a>
 							</div>
 						</div>
 					</div>
@@ -101,7 +98,7 @@
 						</div>
 						<div class="col-md-6" style="padding-left: 80px;">
 							<h5 id="email"></h5>
-							<i><h6 id="admin"></h6></i>
+							<div id="admin"></div>
 						</div>
 					</div>
 					<div class="row" style="padding-top: 40px;">
