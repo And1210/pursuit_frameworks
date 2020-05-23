@@ -28,6 +28,13 @@
 	padding-top: 10px;
 	margin-bottom: 20px;
 }
+.encase-block {
+	border: 1px solid black;
+	border-radius: 0px;
+
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
 .encase-bg {
 	border: none;
 	border-radius: 30px;
@@ -48,6 +55,15 @@
 .breathe-left {
 	width: 100%;
 	margin-left: 10px;
+}
+
+.fill {
+	width: 100% !important;
+}
+
+.vl {
+	border-left: 1px solid black;
+	height: 100%:
 }
 
 .index-link {
@@ -128,6 +144,9 @@ textarea.large-input {
 textarea.no-border {
 	border-style: none;
 }
+textarea.thick {
+	border-width: 1.5px;
+}
 textarea.black {
 	border-color: black;
 }
@@ -163,6 +182,10 @@ input.no-border {
 	border-style: none;
 }
 input.black {
+	border: 1px solid black;
+}
+
+table, th, td {
 	border: 1px solid black;
 }
 

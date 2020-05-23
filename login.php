@@ -32,15 +32,23 @@
 
 	<body>
 
-    <label for="email">Email: </label>
-    <input type="text" name="email" id="email"><br>
-    <label for="password">Password: </label>
-    <input type="password" name="password" id="password"><br>
-
-    <input type="button" id="login" value="Login">
-
-    <br><br>
-    <div id="test"></div>
+    <div class="container encase">
+      <div class="row">
+        <div class="col-md-12" style="padding-top: 30px; padding-bottom: 0px; padding-left: 40px; padding-right: 20px;">
+          <h4 class="title" style="padding-bottom: 10px;">Login</h4>
+          <label for="email" class="subtitle" style="color: red;">Email: </label>
+          <input type="text" name="email" id="email" style="margin-left: 41px;"><br>
+          <label for="password" class="subtitle" style="color: red;">Password: </label>
+          <input type="password" name="password" id="password" style="margin-left: 15px;"><br>
+          <div id="test"></div>
+        </div>
+      </div>
+      <div class="row" style="padding-bottom: 20px;">
+        <div class="col-md-12" align="center">
+          <input type="button" style="background-color: lightgrey; border-radius: 5px; margin-top: 20px; padding: 5px 15px;"  id="login" value="Login">
+        </div>
+      </div>
+    </div>
   </body>
 
 </html>
