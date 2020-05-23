@@ -62,7 +62,7 @@
 							<h3 class="title" style="padding-bottom: 10px;">Frameworks</h3>
 						</div>
 					</div>
-					<div class="row" align="center">
+					<div class="row" align="center" style="padding-bottom: 10px;">
 						<div class="col-md-3">
 							<div class="encase-bg">
 								<a href="/me.php" class="index-link">My Meaningful Experiences</a>
@@ -81,6 +81,23 @@
 						<div class="col-md-3">
 							<div class="encase-bg">
 								<a href="/lighthouse.php" class="index-link">My Proactive Stand</a>
+							</div>
+						</div>
+					</div>
+					<div class="row" align="center">
+						<div class="col-md-4">
+							<div class="encase-bg">
+								<a href="/authentic_role.php" class="index-link">My Authentic True Role</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="encase-bg">
+								<a href="/authority.php" class="index-link">My Relationship to Authority</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="encase-bg">
+								<a href="/natural_approach.php" class="index-link">My Natural Approach</a>
 							</div>
 						</div>
 					</div>
