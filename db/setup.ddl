@@ -103,6 +103,90 @@ create table lighthouse (
   foreign key(user_id) references user(id) ON DELETE CASCADE
 );
 
+create table authentic_role (
+  id integer NOT NULL AUTO_INCREMENT,
+  user_id integer NOT NULL,
+
+  judgment_other varchar(250),
+  judgment_self varchar(250),
+  judgment_work varchar(250),
+  judgment_life varchar(250),
+  expectations varchar(250),
+  assumed_pursue varchar(250),
+  assumed_strategies varchar(250),
+  seeking_recognition varchar(250),
+  seeking_acceptance varchar(250),
+  belief varchar(250),
+  true_create varchar(250),
+  true_strategies varchar(250),
+  being_other varchar(250),
+  being_self varchar(250),
+  being_work varchar(250),
+  being_life varchar(250),
+  giving_recognition varchar(250),
+  giving_acknowledgment varchar(250),
+  giving_acceptance varchar(250),
+
+  primary key(id),
+  foreign key(user_id) references user(id)
+);
+
+create table natural_approach (
+  id integer NOT NULL AUTO_INCREMENT,
+  user_id integer NOT NULL,
+
+  phase1_label varchar(100),
+  phase1_comm_me varchar(250),
+  phase1_comm_others varchar(250),
+  phase1_actions varchar(300),
+  phase1_completions varchar(300),
+  phase2_label varchar(100),
+  phase2_comm_me varchar(250),
+  phase2_comm_others varchar(250),
+  phase2_actions varchar(300),
+  phase2_completions varchar(300),
+  phase3_label varchar(100),
+  phase3_comm_me varchar(250),
+  phase3_comm_others varchar(250),
+  phase3_actions varchar(300),
+  phase3_completions varchar(300),
+  phase4_label varchar(100),
+  phase4_comm_me varchar(250),
+  phase4_comm_others varchar(250),
+  phase4_actions varchar(300),
+  phase4_completions varchar(300),
+  phase5_label varchar(100),
+  phase5_comm_me varchar(250),
+  phase5_comm_others varchar(250),
+  phase5_actions varchar(300),
+  phase5_completions varchar(300),
+  finished varchar(400),
+  lives varchar(400),
+
+  primary key(id),
+  foreign key(user_id) references user(id)
+);
+
+create table authority (
+  id integer NOT NULL AUTO_INCREMENT,
+  user_id integer NOT NULL,
+
+  describe_her varchar(400),
+  see_her varchar(400),
+  loved_her varchar(400),
+  impact_her varchar(400),
+  tension varchar(400),
+  assumed_role varchar(400),
+  true_role varchar(400),
+  describe_him varchar(400),
+  see_him varchar(400),
+  loved_him varchar(400),
+  impact_him varchar(400),
+
+  primary key(id),
+  foreign key(user_id) references user(id)
+);
+
 -- create table form (
 --   id integer NOT NULL AUTO_INCREMENT,
 --   user_id integer NOT NULL,
