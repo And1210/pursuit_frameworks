@@ -63,6 +63,9 @@
 										<a href="./purpose.php">My Purpose</a>
 										<a href="./world_view.php">My World View</a>
 										<a href="./lighthouse.php">My Proactive Stand</a>
+										<a href="./authentic_role.php">My Authentic True Role</a>
+										<a href="./authority.php">My Relationship to Authority</a>
+										<a href="./natural_approach.php">My Natural Approach</a>
 									</div>
 								</li>
 								<li><a href="./login.php">Login/Logout</a></li>
