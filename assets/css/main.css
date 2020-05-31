@@ -185,6 +185,10 @@ input.black {
 	border: 1px solid black;
 }
 
+div.textarea {
+	font-size: 12px !important;
+}
+
 table, th, td {
 	border: 1px solid black;
 }

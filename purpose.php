@@ -143,7 +143,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row" data-html2canvas-ignore="true">
 					<div class="col-md-12" align="center">
 						<a class="save-link" href="javascript:save()">Save</a>
 					</div>
