@@ -41,8 +41,12 @@
 	background: lightgrey;
 
 	width: 75%;
+	height: 48px;
 	padding-left: 20px;
 	padding-right: 20px;
+
+	text-align: center;
+	line-height: 48px;
 }
 .encase-blue {
 	border-color: blue;
@@ -136,6 +140,10 @@ textarea.small-input {
 textarea.medium-input {
 	min-height: 70px !important;
 	height: 70px;
+}
+textarea.medium1-input {
+	min-height: 150px !important;
+	height: 150px;
 }
 textarea.large-input {
 	min-height: 300px !important;

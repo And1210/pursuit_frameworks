@@ -88,19 +88,19 @@
                   <div class="subtitle"><b>Judgments of...</b></div>
                   <div class="subtitle">Others</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="judgement_other"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_other"></textarea>
     							</div>
                   <div class="subtitle">Self</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="judgement_self"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_self"></textarea>
     							</div>
                   <div class="subtitle">Work</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="judgement_work"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_work"></textarea>
     							</div>
                   <div class="subtitle">Life</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="judgement_life"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_life"></textarea>
     							</div>
                 </div>
                 <div class="col-md-7">
@@ -114,11 +114,11 @@
       							<input type="text" class="title-border" id="assumed_label">
                     <div class="subtitle">Pursue</div>
       							<div class="form-group flex-grow-1 d-flex flex-column">
-      								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="assumed_pursue"></textarea>
+      								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="assumed_pursue"></textarea>
       							</div>
                     <div class="subtitle">Assumed Strategies</div>
       							<div class="form-group flex-grow-1 d-flex flex-column">
-      								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="assumed_strategies"></textarea>
+      								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="assumed_strategies"></textarea>
       							</div>
                   </div>
                 </div>
@@ -155,11 +155,11 @@
                     <input type="text" class="title-border" id="true_label">
                     <div class="subtitle">Create</div>
                     <div class="form-group flex-grow-1 d-flex flex-column">
-                      <textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="true_create"></textarea>
+                      <textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="true_create"></textarea>
                     </div>
                     <div class="subtitle">True Strategies</div>
                     <div class="form-group flex-grow-1 d-flex flex-column">
-                      <textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="true_strategies"></textarea>
+                      <textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="true_strategies"></textarea>
                     </div>
                   </div>
                 </div>
@@ -167,19 +167,19 @@
                   <div class="subtitle"><b>Being with...</b></div>
                   <div class="subtitle">Others</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="being_other"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_other"></textarea>
     							</div>
                   <div class="subtitle">Self</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="being_self"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_self"></textarea>
     							</div>
                   <div class="subtitle">Work</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="being_work"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_work"></textarea>
     							</div>
                   <div class="subtitle">Life</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border small-input" placeholder="" id="being_life"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_life"></textarea>
     							</div>
                 </div>
               </div>

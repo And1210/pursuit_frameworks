@@ -99,16 +99,16 @@
                         <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
                       </div></div>
                       <div class="row">
-                        <div class="col-md-6" align="center">
+                        <div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Me</div>
-            							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase1_comm_me"></textarea>
+            							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase1_comm_me"></textarea>
             							</div>
                         </div>
-                        <div class="col-md-6" align="center">
+                        <div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Others</div>
-            							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase1_comm_others"></textarea>
+            							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase1_comm_others"></textarea>
             							</div>
                         </div>
                       </div>
@@ -158,20 +158,20 @@
                     <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                       <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
                     </div></div>
-                    <div class="row">
-                      <div class="col-md-6" align="center">
-                        <div class="subtitle" style="font-size: 10pt;">By Me</div>
-                        <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase2_comm_me"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-6" align="center">
-                        <div class="subtitle" style="font-size: 10pt;">By Others</div>
-                        <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase2_comm_others"></textarea>
-                        </div>
-                      </div>
-                    </div>
+										<div class="row">
+											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
+												<div class="subtitle" style="font-size: 10pt;">By Me</div>
+												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase2_comm_me"></textarea>
+												</div>
+											</div>
+											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
+												<div class="subtitle" style="font-size: 10pt;">By Others</div>
+												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase2_comm_others"></textarea>
+												</div>
+											</div>
+										</div>
                   </div>
                 </div>
                 <div class="encase-block">
@@ -218,20 +218,20 @@
                     <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                       <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
                     </div></div>
-                    <div class="row">
-                      <div class="col-md-6" align="center">
-                        <div class="subtitle" style="font-size: 10pt;">By Me</div>
-                        <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase3_comm_me"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-6" align="center">
-                        <div class="subtitle" style="font-size: 10pt;">By Others</div>
-                        <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase3_comm_others"></textarea>
-                        </div>
-                      </div>
-                    </div>
+										<div class="row">
+											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
+												<div class="subtitle" style="font-size: 10pt;">By Me</div>
+												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase3_comm_me"></textarea>
+												</div>
+											</div>
+											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
+												<div class="subtitle" style="font-size: 10pt;">By Others</div>
+												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase3_comm_others"></textarea>
+												</div>
+											</div>
+										</div>
                   </div>
                 </div>
                 <div class="encase-block">
@@ -283,16 +283,16 @@
                         <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
                       </div></div>
                       <div class="row">
-                        <div class="col-md-6" align="center">
+                        <div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Me</div>
-            							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase4_comm_me"></textarea>
+            							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase4_comm_me"></textarea>
             							</div>
                         </div>
-                        <div class="col-md-6" align="center">
+                        <div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Others</div>
-            							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase4_comm_others"></textarea>
+            							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase4_comm_others"></textarea>
             							</div>
                         </div>
                       </div>
@@ -342,20 +342,20 @@
                     <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                       <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
                     </div></div>
-                    <div class="row">
-                      <div class="col-md-6" align="center">
-                        <div class="subtitle" style="font-size: 10pt;">By Me</div>
-                        <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase5_comm_me"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-md-6" align="center">
-                        <div class="subtitle" style="font-size: 10pt;">By Others</div>
-                        <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase5_comm_others"></textarea>
-                        </div>
-                      </div>
-                    </div>
+										<div class="row">
+											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
+												<div class="subtitle" style="font-size: 10pt;">By Me</div>
+												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase5_comm_me"></textarea>
+												</div>
+											</div>
+											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
+												<div class="subtitle" style="font-size: 10pt;">By Others</div>
+												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
+													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase5_comm_others"></textarea>
+												</div>
+											</div>
+										</div>
                   </div>
                 </div>
                 <div class="encase-block">
