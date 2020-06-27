@@ -35,20 +35,20 @@
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
 							<ul class="nav">
-								<li><a href="./index.php" class="active">Home</a></li>
-								<li class="dropdown">
-									<a class="dropbtn">Frameworks</a>
+								<li><a href="./index.php" class="active text-page-tab">Home</a></li>
+								<li class="dropdown text-page-tab">
+									<a class="dropbtn text-page-tab">Frameworks</a>
 									<div class="dropdown-content">
-										<a href="./me.php">My Meaningful Experiences</a>
-										<a href="./purpose.php">My Purpose</a>
-										<a href="./world_view.php">My World View</a>
-										<a href="./lighthouse.php">My Proactive Stand</a>
-										<a href="./authentic_role.php">My Authentic True Role</a>
-										<a href="./authority.php">My Relationship to Authority</a>
-										<a href="./natural_approach.php">My Natural Approach</a>
+										<a href="./me.php" class="text-page-tab" style="font-size: 12pt !important;">My Meaningful Experiences</a>
+										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
+										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
+										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
+										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
-								<li><a href="./login.php">Login/Logout</a></li>
+								<li><a href="./login.php" class="text-page-tab"><b>Logout</b></a></li>
 							</ul>
 							<!-- ***** Menu End ***** -->
 						</nav>
@@ -73,12 +73,24 @@
 						</div>
 						<div class="col-md-3">
 							<div class="encase-bg">
-								<a href="/purpose.php" class="index-link">My Purpose</a>
+								<a href="/world_view.php" class="index-link">My World View</a>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="encase-bg">
-								<a href="/world_view.php" class="index-link">My World View</a>
+								<a href="/natural_approach.php" class="index-link">My Natural Approach</a>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="encase-bg">
+								<a href="/authority.php" class="index-link">My Relationship to Authority</a>
+							</div>
+						</div>
+					</div>
+					<div class="row" align="center">
+						<div class="col-md-3">
+							<div class="encase-bg">
+								<a href="/purpose.php" class="index-link">My Purpose</a>
 							</div>
 						</div>
 						<div class="col-md-3">
@@ -86,21 +98,10 @@
 								<a href="/lighthouse.php" class="index-link">My Proactive Stand</a>
 							</div>
 						</div>
-					</div>
-					<div class="row" align="center">
-						<div class="col-md-4">
+						<div class="col-md-3"></div>
+						<div class="col-md-3">
 							<div class="encase-bg">
 								<a href="/authentic_role.php" class="index-link">My Authentic True Role</a>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="encase-bg">
-								<a href="/authority.php" class="index-link">My Relationship to Authority</a>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="encase-bg">
-								<a href="/natural_approach.php" class="index-link">My Natural Approach</a>
 							</div>
 						</div>
 					</div>
@@ -109,27 +110,27 @@
 				<div class="encase" style="padding-bottom: 20px; padding-top: 20px;">
 					<div class="row" align="center">
 						<div class="col-md-12">
-							<h3 class="title" style="padding-bottom: 10px;">Account</h3>
+							<h3 class="title" style="padding-bottom: 10px;">Your Account Information</h3>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6" style="padding-left: 80px;">
-							<h5 id="name"></h5>
+						<div class="col-md-5" style="padding-left: 80px;">
+							<h6 id="name"></h6>
 						</div>
-						<div class="col-md-6" style="padding-left: 80px;">
-							<h5 id="email"></h5>
+						<div class="col-md-7">
+							<h6 id="email"></h6>
 							<div id="admin"></div>
 						</div>
 					</div>
 					<div class="row" style="padding-top: 40px;">
-						<div class="col-md-6"></div>
-						<div class="col-md-6">
-							<h5>Reset Your Password</h5>
+						<div class="col-md-5"></div>
+						<div class="col-md-7">
+							<h6>You May Reset Your Password:</h6>
 						</div>
 					</div>
 					<div class="row" style="padding-top: 10px;">
-						<div class="col-md-6"></div>
-						<div class="col-md-6">
+						<div class="col-md-5"></div>
+						<div class="col-md-7">
 							<div class="row" style="padding-right: 40px;">
 								<div class="col-md-5">
 									<h6>New Password:</h6>

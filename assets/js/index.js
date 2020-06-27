@@ -19,8 +19,8 @@ function load_profile() {
       let jsonData = JSON.parse(data);
       if (jsonData.success) {
         cur_user = jsonData.id;
-        $('#name').html(jsonData.fname + " " + jsonData.lname);
-        $('#email').html(jsonData.email);
+        $('#name').html("Welcome: " + jsonData.fname + " " + jsonData.lname);
+        $('#email').html("Your email: " + jsonData.email);
         let admin = jsonData.access;
         if (admin === "0") {
           $('#admin').html("<div align=\"center\" class=\"encase-bg\" style=\"width: 25%;\"><a href=\"admin.php\" class=\"index-link\">Admin</a></div>");

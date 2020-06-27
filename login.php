@@ -32,14 +32,14 @@
 
 	<body>
 
-    <div class="container" style="padding-bottom: 10px;"><div class="row"><div class="col-md-12"><a style="text-decoration: none; color: red; font-size: 25pt;" href="http://www.pursuitleadership.com">PursuitLeadership.com</a></div></div></div>
-    <div class="container encase" style="margin-bottom: 0px !important;">
+    <div class="container"><div class="row"><div class="col-md-12"><a href="http://www.pursuitleadership.com"><img src="./assets/img/PursuitLeadership.png" height="75"></a></div></div></div>
+    <div class="container encase encase-blue" style="margin-bottom: 0px !important;">
       <div class="row">
         <div class="col-md-4" style="padding-top: 30px; padding-bottom: 0px; padding-left: 40px; padding-right: 20px;">
-          <h4 class="title" style="padding-bottom: 10px;">Login</h4>
-          <label for="email" class="subtitle" style="color: red;">Email: </label>
+          <h4 class="title text-grey" style="padding-bottom: 10px;">Login</h4>
+          <label for="email" class="subtitle text-burnt-red">Email: </label>
           <input type="text" name="email" id="email" style="margin-left: 41px;"><br>
-          <label for="password" class="subtitle" style="color: red;">Password: </label>
+          <label for="password" class="subtitle text-burnt-red">Password: </label>
           <input type="password" name="password" id="password" style="margin-left: 15px;"><br>
           <!-- <div id="test"></div> -->
         </div>

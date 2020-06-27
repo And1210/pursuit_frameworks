@@ -52,20 +52,20 @@
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
 							<ul class="nav">
-								<li><a href="./index.php" class="active">Home</a></li>
-								<li class="dropdown">
-									<a class="dropbtn">Frameworks</a>
+								<li><a href="./index.php" class="active text-page-tab">Home</a></li>
+								<li class="dropdown text-page-tab">
+									<a class="dropbtn text-page-tab">Frameworks</a>
 									<div class="dropdown-content">
-										<a href="./me.php">My Meaningful Experiences</a>
-										<a href="./purpose.php">My Purpose</a>
-										<a href="./world_view.php">My World View</a>
-										<a href="./lighthouse.php">My Proactive Stand</a>
-										<a href="./authentic_role.php">My Authentic True Role</a>
-										<a href="./authority.php">My Relationship to Authority</a>
-										<a href="./natural_approach.php">My Natural Approach</a>
+										<a href="./me.php" class="text-page-tab" style="font-size: 12pt !important;">My Meaningful Experiences</a>
+										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
+										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
+										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
+										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
-								<li><a href="./login.php">Login/Logout</a></li>
+								<li><a href="./login.php" class="text-page-tab"><b>Logout</b></a></li>
 							</ul>
 							<!-- ***** Menu End ***** -->
 						</nav>
@@ -83,10 +83,10 @@
 				<!-- Title Row 1 -->
 				<div class="row" align="center">
 					<div class="col-md-6">
-						<h6 style="color: red;">(-) Burns Energy</h6>
+						<h6 class="text-burnt-red">(-) Burns Energy</h6>
 					</div>
 					<div class="col-md-6">
-						<h6 style="color: blue;">(+) Builds Energy</h6>
+						<h6 class="text-blue">(+) Builds Energy</h6>
 					</div>
 				</div>
 				<div class="row" align="center">
@@ -105,7 +105,7 @@
 				<div class="row">
 					<div class="col-md-2 d-flex flex-column">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" id="feel_neg"></textarea>
+							<textarea class="form-control flex-grow-1	burnt-red" id="feel_neg"></textarea>
 						</div>
 					</div>
 
@@ -114,12 +114,12 @@
 						<div class="row">
 							<div class="col-md-6 d-flex flex-column">
 								<div class="form-group flex-grow-1 d-flex flex-column">
-									<textarea class="form-control flex-grow-1	black" id="big_world_neg"></textarea>
+									<textarea class="form-control flex-grow-1	purple" id="big_world_neg"></textarea>
 								</div>
 							</div>
 							<div class="col-md-6 d-flex flex-column">
 								<div class="form-group flex-grow-1 d-flex flex-column">
-									<textarea class="form-control flex-grow-1	black" id="big_world_pos"></textarea>
+									<textarea class="form-control flex-grow-1	purple" id="big_world_pos"></textarea>
 								</div>
 							</div>
 						</div>
@@ -151,7 +151,7 @@
 
 					<div class="col-md-2 d-flex flex-column">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" id="feel_pos"></textarea>
+							<textarea class="form-control flex-grow-1	blue" id="feel_pos"></textarea>
 						</div>
 					</div>
 				</div>
@@ -173,7 +173,7 @@
 				<div class="row">
 					<div class="col-md-2 d-flex flex-column">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea style="width: 135%;" class="form-control flex-grow-1 black" id="react_neg"></textarea>
+							<textarea style="width: 135%;" class="form-control flex-grow-1 burnt-red" id="react_neg"></textarea>
 						</div>
 					</div>
 
@@ -182,12 +182,12 @@
 							<div class="col-md-1"></div>
 							<div class="col-md-5 d-flex flex-column">
 								<div class="form-group flex-grow-1 d-flex flex-column">
-									<textarea class="form-control flex-grow-1	red" id="work_world_neg"></textarea>
+									<textarea class="form-control flex-grow-1	green" id="work_world_neg"></textarea>
 								</div>
 							</div>
 							<div class="col-md-5 d-flex flex-column">
 								<div class="form-group flex-grow-1 d-flex flex-column">
-									<textarea class="form-control flex-grow-1	red" id="work_world_pos"></textarea>
+									<textarea class="form-control flex-grow-1	green" id="work_world_pos"></textarea>
 								</div>
 							</div>
 							<div class="col-md-1"></div>
@@ -196,7 +196,7 @@
 
 					<div class="col-md-2 d-flex flex-column">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea style="width: 135%; position: relative; left: -35%;" class="form-control flex-grow-1 black" id="respond_pos"></textarea>
+							<textarea style="width: 135%; position: relative; left: -35%;" class="form-control flex-grow-1 blue" id="respond_pos"></textarea>
 						</div>
 					</div>
 				</div>
@@ -218,7 +218,7 @@
 				<div class="row">
 					<div class="col-md-3 d-flex flex-column">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" id="impact_neg">Me: &#13;&#10;Others: &#13;&#10;World: </textarea>
+							<textarea class="form-control flex-grow-1	burnt-red" id="impact_neg">Me: &#13;&#10;Others: &#13;&#10;World: </textarea>
 						</div>
 					</div>
 
@@ -226,12 +226,12 @@
 						<div class="row">
 							<div class="col-md-6 d-flex flex-column">
 								<div class="form-group flex-grow-1 d-flex flex-column">
-									<textarea class="form-control flex-grow-1	green" id="personal_world_neg"></textarea>
+									<textarea class="form-control flex-grow-1	orange" id="personal_world_neg"></textarea>
 								</div>
 							</div>
 							<div class="col-md-6 d-flex flex-column">
 								<div class="form-group flex-grow-1 d-flex flex-column">
-									<textarea class="form-control flex-grow-1	green" id="personal_world_pos"></textarea>
+									<textarea class="form-control flex-grow-1	orange" id="personal_world_pos"></textarea>
 								</div>
 							</div>
 						</div>
@@ -239,7 +239,7 @@
 
 					<div class="col-md-3 d-flex flex-column">
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	black" id="impact_pos">Me: &#13;&#10;Others: &#13;&#10;World: </textarea>
+							<textarea class="form-control flex-grow-1	blue" id="impact_pos">Me: &#13;&#10;Others: &#13;&#10;World: </textarea>
 						</div>
 					</div>
 				</div>
@@ -261,13 +261,13 @@
 				<div class="row">
 					<div class="col-md-1"></div>
 					<div class="col-md-4 d-flex flex-column">
-						<input type="text" class="black" id="position_neg">
+						<input type="text" class="burnt-red" id="position_neg">
 					</div>
 					<div class="col-md-2" align="center">
 						<img src="assets/img/globe.png" height=50>
 					</div>
 					<div class="col-md-4 d-flex flex-column">
-						<input type="text" class="black" id="position_pos">
+						<input type="text" class="blue" id="position_pos">
 					</div>
 					<div class="col-md-1"></div>
 				</div>

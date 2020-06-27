@@ -55,20 +55,20 @@
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
 							<ul class="nav">
-								<li><a href="./index.php" class="active">Home</a></li>
-								<li class="dropdown">
-									<a class="dropbtn">Frameworks</a>
+								<li><a href="./index.php" class="active text-page-tab">Home</a></li>
+								<li class="dropdown text-page-tab">
+									<a class="dropbtn text-page-tab">Frameworks</a>
 									<div class="dropdown-content">
-										<a href="./me.php">My Meaningful Experiences</a>
-										<a href="./purpose.php">My Purpose</a>
-										<a href="./world_view.php">My World View</a>
-										<a href="./lighthouse.php">My Proactive Stand</a>
-										<a href="./authentic_role.php">My Authentic True Role</a>
-										<a href="./authority.php">My Relationship to Authority</a>
-										<a href="./natural_approach.php">My Natural Approach</a>
+										<a href="./me.php" class="text-page-tab" style="font-size: 12pt !important;">My Meaningful Experiences</a>
+										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
+										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
+										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
+										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
-								<li><a href="./login.php">Login/Logout</a></li>
+								<li><a href="./login.php" class="text-page-tab"><b>Logout</b></a></li>
 							</ul>
 							<!-- ***** Menu End ***** -->
 						</nav>
@@ -88,7 +88,7 @@
 					<div class="col-md-3 d-flex flex-column">
 						<h6 class="subtitle purpose-page"><b>Hope</b></h6>
 						<div class="form-group flex-grow-1 d-flex flex-column">
-							<textarea class="form-control flex-grow-1	pink" id="hope"></textarea>
+							<textarea class="form-control flex-grow-1	light-blue" id="hope"></textarea>
 						</div>
 					</div>
 					<div class="col-md-3 d-flex flex-column">
@@ -118,28 +118,28 @@
 							<h6 class="subtitle purpose-page"><b>Purpose Statment Draft #1</b></h6>
 							<div class="subtitle" align="left">I exist to...</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black" placeholder="What? [Intent]" id="exist_to"></textarea>
+								<textarea class="form-control flex-grow-1	black green" placeholder="What? [Intent]" id="exist_to"></textarea>
 							</div>
 							<div class="subtitle" align="left">That results in...</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black" placeholder="What? [Hope]" id="results_in"></textarea>
+								<textarea class="form-control flex-grow-1	black light-blue" placeholder="What? [Hope]" id="results_in"></textarea>
 							</div>
 							<div class="subtitle" align="left">For myself & others...</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black" placeholder="By Doing & Creating What?" id="myself_others"></textarea>
+								<textarea class="form-control flex-grow-1	black orange" placeholder="By Doing & Creating What?" id="myself_others"></textarea>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-md-6">
-						<div class="encase-round encase-blue breathe-left">
+						<div class="encase-round encase-purple breathe-left">
 							<h6 class="subtitle purpose-page"><b>My Purpose Statement</b> (Working Draft)</h6>
 							<div class="form-group flex-grow-1 d-flex flex-column" style="padding-left: 15px; padding-right: 15px;">
 								<textarea class="form-control flex-grow-1	no-border large-input" id="purpose_statement"></textarea>
 							</div>
 						</div>
 						<h6 class="subtitle purpose-page"><b>Purpose Statment Handle</b></h6>
-						<input type="text" class="black" style="width: 75%;" id="handle">
+						<input type="text" class="purple" style="width: 75%;" id="handle">
 					</div>
 				</div>
 

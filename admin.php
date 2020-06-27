@@ -41,20 +41,20 @@
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
 							<ul class="nav">
-								<li><a href="./index.php" class="active">Home</a></li>
-								<li class="dropdown">
-									<a class="dropbtn">Frameworks</a>
+								<li><a href="./index.php" class="active text-page-tab">Home</a></li>
+								<li class="dropdown text-page-tab">
+									<a class="dropbtn text-page-tab">Frameworks</a>
 									<div class="dropdown-content">
-										<a href="./me.php">My Meaningful Experiences</a>
-										<a href="./purpose.php">My Purpose</a>
-										<a href="./world_view.php">My World View</a>
-										<a href="./lighthouse.php">My Proactive Stand</a>
-										<a href="./authentic_role.php">My Authentic True Role</a>
-										<a href="./authority.php">My Relationship to Authority</a>
-										<a href="./natural_approach.php">My Natural Approach</a>
+										<a href="./me.php" class="text-page-tab" style="font-size: 12pt !important;">My Meaningful Experiences</a>
+										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
+										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
+										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
+										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
-								<li><a href="./login.php">Login/Logout</a></li>
+								<li><a href="./login.php" class="text-page-tab"><b>Logout</b></a></li>
 							</ul>
 							<!-- ***** Menu End ***** -->
 						</nav>

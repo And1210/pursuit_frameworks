@@ -7,7 +7,7 @@
 	font-size: 10pt;
 }
 .subtitle {
-	color: grey;
+	/* color: grey; */
 	font-style: italic;
 }
 .purpose-page {
@@ -41,15 +41,49 @@
 	background: lightgrey;
 
 	width: 75%;
-	height: 48px;
+	height: 75px;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 0px;
+
+	display: table;
 
 	text-align: center;
-	line-height: 48px;
 }
 .encase-blue {
-	border-color: blue;
+	border-color: rgb(0, 12, 138);
+}
+.encase-orange {
+	border-color: rgb(237, 111, 45);
+}
+.encase-green {
+	border-color: rgb(55, 125, 33);
+}
+.encase-light-blue {
+	border-color: rgb(90, 129, 184);
+}
+.encase-purple {
+	border-color: rgb(93, 18, 99);
+}
+.encase-yellow {
+	border-color: rgb(255, 253, 83);
+}
+.encase-burnt-red {
+	border-color: rgb(116, 20, 12);
+}
+
+.text-burnt-red {
+	color: rgb(116, 20, 12) !important;
+}
+.text-blue {
+	color: rgb(0, 6, 110) !important;
+}
+.text-grey {
+	color: rgb(119, 119, 120) !important;
+}
+.text-page-tab {
+	font-size: 14pt !important;
+	color: rgb(51, 51, 51) !important;
 }
 
 .breathe-right {
@@ -71,8 +105,11 @@
 }
 
 .index-link {
-	padding-top: 5px !important;
-	padding-bottom: 5px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+
+	display: table-cell;
+	vertical-align: middle;
 
 	text-decoration: none;
 	color: black;
@@ -159,13 +196,22 @@ textarea.black {
 	border-color: black;
 }
 textarea.blue {
-	border-color: blue;
+	border-color: rgb(0, 12, 138);
+}
+textarea.light-blue {
+	border-color: rgb(90, 129, 184);
+}
+textarea.purple {
+	border-color: rgb(93, 18, 99);
 }
 textarea.red {
 	border-color: red;
 }
 textarea.green {
-	border-color: green;
+	border-color: rgb(55, 125, 33);
+}
+textarea.yellow {
+	border-color: rgb(255, 253, 83);
 }
 textarea.grey {
 	border-color: grey;
@@ -174,7 +220,13 @@ textarea.pink {
 	border-color: pink;
 }
 textarea.orange {
-	border-color: orange;
+	border-color: rgb(237, 111, 45);
+}
+textarea.burnt-red {
+	border-color: rgb(116, 20, 12);
+}
+textarea.page-tab {
+	border-color: rgb(51, 51, 51);
 }
 
 input {
@@ -190,7 +242,37 @@ input.no-border {
 	border-style: none;
 }
 input.black {
-	border: 1px solid black;
+	border-color: black;
+}
+input.blue {
+	border-color: rgb(0, 12, 138);
+}
+input.light-blue {
+	border-color: rgb(90, 129, 184);
+}
+input.purple {
+	border-color: rgb(93, 18, 99);
+}
+input.red {
+	border-color: red;
+}
+input.green {
+	border-color: rgb(55, 125, 33);
+}
+input.yellow {
+	border-color: rgb(255, 253, 83);
+}
+input.grey {
+	border-color: grey;
+}
+input.pink {
+	border-color: pink;
+}
+input.orange {
+	border-color: rgb(237, 111, 45);
+}
+input.burnt-red {
+	border-color: rgb(116, 20, 12);
 }
 
 div.textarea {

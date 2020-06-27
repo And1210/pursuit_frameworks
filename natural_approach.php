@@ -52,20 +52,20 @@
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
 							<ul class="nav">
-								<li><a href="./index.php" class="active">Home</a></li>
-								<li class="dropdown">
-									<a class="dropbtn">Frameworks</a>
+								<li><a href="./index.php" class="active text-page-tab">Home</a></li>
+								<li class="dropdown text-page-tab">
+									<a class="dropbtn text-page-tab">Frameworks</a>
 									<div class="dropdown-content">
-										<a href="./me.php">My Meaningful Experiences</a>
-										<a href="./purpose.php">My Purpose</a>
-										<a href="./world_view.php">My World View</a>
-										<a href="./lighthouse.php">My Proactive Stand</a>
-										<a href="./authentic_role.php">My Authentic True Role</a>
-										<a href="./authority.php">My Relationship to Authority</a>
-										<a href="./natural_approach.php">My Natural Approach</a>
+										<a href="./me.php" class="text-page-tab" style="font-size: 12pt !important;">My Meaningful Experiences</a>
+										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
+										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
+										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
+										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
-								<li><a href="./login.php">Login/Logout</a></li>
+								<li><a href="./login.php" class="text-page-tab"><b>Logout</b></a></li>
 							</ul>
 							<!-- ***** Menu End ***** -->
 						</nav>
@@ -82,10 +82,10 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div class="encase" style="padding: 10px;">
+            <div class="encase encase-blue" style="padding: 10px;">
               <div class="row">
                 <div class="col-md-12">
-                  <div class="encase-block" style="padding: 10px;">
+                  <div class="encase-block encase-light-blue" style="padding: 10px;">
       							<label class="subtitle" align="left">Phase 1:</label>
       							<input type="text" class="title-border" style="width: 70%;" id="phase1_label">
                   </div>
@@ -93,7 +93,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="encase-block">
+                  <div class="encase-block encase-light-blue">
                     <div style="padding-left: 10px; padding-right: 10px;">
                       <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                         <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
@@ -102,37 +102,37 @@
                         <div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Me</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase1_comm_me"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase1_comm_me"></textarea>
             							</div>
                         </div>
                         <div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Others</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase1_comm_others"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase1_comm_others"></textarea>
             							</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="encase-block">
+                  <div class="encase-block encase-light-blue">
                     <div class="row">
                       <div class="col-md-12">
                         <div style="padding-left: 10px; padding-right: 10px;">
                           <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Actions</b>' - What did you do?</div>
             							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase1_actions"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase1_actions"></textarea>
             							</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="encase-block">
+                  <div class="encase-block encase-light-blue">
                     <div class="row">
                       <div class="col-md-12">
                         <div style="padding-left: 10px; padding-right: 10px;">
                           <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
             							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase1_completions"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase1_completions"></textarea>
             							</div>
                         </div>
                       </div>
@@ -142,10 +142,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4"><div class="encase" style="padding: 10px;">
+          <div class="col-md-4"><div class="encase encase-blue" style="padding: 10px;">
             <div class="row">
               <div class="col-md-12">
-                <div class="encase-block" style="padding: 10px;">
+                <div class="encase-block encase-light-blue" style="padding: 10px;">
                   <label class="subtitle" align="left">Phase 2:</label>
                   <input type="text" class="title-border" style="width: 70%;" id="phase2_label">
                 </div>
@@ -153,7 +153,7 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div style="padding-left: 10px; padding-right: 10px;">
                     <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                       <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
@@ -162,37 +162,37 @@
 											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Me</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase2_comm_me"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase2_comm_me"></textarea>
 												</div>
 											</div>
 											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Others</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase2_comm_others"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase2_comm_others"></textarea>
 												</div>
 											</div>
 										</div>
                   </div>
                 </div>
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div class="row">
                     <div class="col-md-12">
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Actions</b>' - What did you do?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase2_actions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase2_actions"></textarea>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div class="row">
                     <div class="col-md-12">
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase2_completions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase2_completions"></textarea>
                         </div>
                       </div>
                     </div>
@@ -202,10 +202,10 @@
             </div>
           </div>
           </div>
-          <div class="col-md-4"><div class="encase" style="padding: 10px;">
+          <div class="col-md-4"><div class="encase encase-blue" style="padding: 10px;">
             <div class="row">
               <div class="col-md-12">
-                <div class="encase-block" style="padding: 10px;">
+                <div class="encase-block encase-light-blue" style="padding: 10px;">
                   <label class="subtitle" align="left">Phase 3:</label>
                   <input type="text" class="title-border" style="width: 70%;" id="phase3_label">
                 </div>
@@ -213,7 +213,7 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div style="padding-left: 10px; padding-right: 10px;">
                     <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                       <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
@@ -222,37 +222,37 @@
 											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Me</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase3_comm_me"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase3_comm_me"></textarea>
 												</div>
 											</div>
 											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Others</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase3_comm_others"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase3_comm_others"></textarea>
 												</div>
 											</div>
 										</div>
                   </div>
                 </div>
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div class="row">
                     <div class="col-md-12">
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Actions</b>' - What did you do?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase3_actions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase3_actions"></textarea>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div class="row">
                     <div class="col-md-12">
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase3_completions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase3_completions"></textarea>
                         </div>
                       </div>
                     </div>
@@ -266,10 +266,10 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div class="encase" style="padding: 10px;">
+            <div class="encase encase-blue" style="padding: 10px;">
               <div class="row">
                 <div class="col-md-12">
-                  <div class="encase-block" style="padding: 10px;">
+                  <div class="encase-block encase-light-blue" style="padding: 10px;">
       							<label class="subtitle" align="left">Phase 4:</label>
       							<input type="text" class="title-border" style="width: 70%;" id="phase4_label">
                   </div>
@@ -277,7 +277,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="encase-block">
+                  <div class="encase-block encase-light-blue">
                     <div style="padding-left: 10px; padding-right: 10px;">
                       <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                         <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
@@ -286,37 +286,37 @@
                         <div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Me</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase4_comm_me"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase4_comm_me"></textarea>
             							</div>
                         </div>
                         <div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Others</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase4_comm_others"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase4_comm_others"></textarea>
             							</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="encase-block">
+                  <div class="encase-block encase-light-blue">
                     <div class="row">
                       <div class="col-md-12">
                         <div style="padding-left: 10px; padding-right: 10px;">
                           <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Actions</b>' - What did you do?</div>
             							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase4_actions"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase4_actions"></textarea>
             							</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="encase-block">
+                  <div class="encase-block encase-light-blue">
                     <div class="row">
                       <div class="col-md-12">
                         <div style="padding-left: 10px; padding-right: 10px;">
                           <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
             							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	black" placeholder="" id="phase4_completions"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase4_completions"></textarea>
             							</div>
                         </div>
                       </div>
@@ -326,10 +326,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4"><div class="encase" style="padding: 10px;">
+          <div class="col-md-4"><div class="encase encase-blue" style="padding: 10px;">
             <div class="row">
               <div class="col-md-12">
-                <div class="encase-block" style="padding: 10px;">
+                <div class="encase-block encase-light-blue" style="padding: 10px;">
                   <label class="subtitle" align="left">Phase 5:</label>
                   <input type="text" class="title-border" style="width: 70%;" id="phase5_label">
                 </div>
@@ -337,7 +337,7 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div style="padding-left: 10px; padding-right: 10px;">
                     <div class="row" style="padding-bottom: 5px;"><div class="col-md-12">
                       <div class="subtitle" style="font-size: 10pt;">'<b>Communication</b>' - What was Communicated?</div>
@@ -346,37 +346,37 @@
 											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Me</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase5_comm_me"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase5_comm_me"></textarea>
 												</div>
 											</div>
 											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Others</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	black md-lg-input" placeholder="" id="phase5_comm_others"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase5_comm_others"></textarea>
 												</div>
 											</div>
 										</div>
                   </div>
                 </div>
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div class="row">
                     <div class="col-md-12">
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Actions</b>' - What did you do?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase5_actions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase5_actions"></textarea>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="encase-block">
+                <div class="encase-block encase-light-blue">
                   <div class="row">
                     <div class="col-md-12">
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	black" placeholder="" id="phase5_completions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase5_completions"></textarea>
                         </div>
                       </div>
                     </div>
@@ -387,28 +387,28 @@
           </div>
           </div>
           <div class="col-md-4">
-            <div class="encase" style="padding: 10px; margin-top: 20% !important; padding-bottom: 0px !important;">
-							<div class="encase-block">
+            <div class="encase encase-blue" style="padding: 10px; margin-top: 20% !important; padding-bottom: 0px !important;">
+							<div class="encase-block encase-light-blue">
 								<div class="row">
 									<div class="col-md-12">
 										<div style="padding-left: 10px; padding-right: 10px;">
 											<div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;"><b>How do you know you were finished?</b></div>
 											<div class="form-group flex-grow-1 d-flex flex-column">
-												<textarea class="form-control flex-grow-1	black" placeholder="" id="finished"></textarea>
+												<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="finished"></textarea>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-            <div class="encase" style="padding: 10px; margin-top: 20% !important; padding-bottom: 0px !important;">
-							<div class="encase-block">
+            <div class="encase encase-blue" style="padding: 10px; margin-top: 20% !important; padding-bottom: 0px !important;">
+							<div class="encase-block encase-light-blue">
 								<div class="row">
 									<div class="col-md-12">
 										<div style="padding-left: 10px; padding-right: 10px;">
 											<div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;"><b>How did this effort enrich people's lives?</b></div>
 											<div class="form-group flex-grow-1 d-flex flex-column">
-												<textarea class="form-control flex-grow-1	black" placeholder="" id="lives"></textarea>
+												<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="lives"></textarea>
 											</div>
 										</div>
 									</div>
