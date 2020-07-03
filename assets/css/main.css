@@ -6,6 +6,9 @@
 	color: grey;
 	font-size: 10pt;
 }
+.title-burnt-red {
+	color: rgb(116, 20, 12);
+}
 .subtitle {
 	/* color: grey; */
 	font-style: italic;
@@ -181,6 +184,10 @@ textarea.medium-input {
 textarea.medium1-input {
 	min-height: 150px !important;
 	height: 150px;
+}
+textarea.medium2-input {
+	min-height: 200px !important;
+	height: 200px;
 }
 textarea.large-input {
 	min-height: 300px !important;
@@ -367,6 +374,10 @@ a:hover  {
   display: block;
 }
 
+.logo-img {
+	height: 40px !important;
+}
+
 .header-area .main-nav .logo {
   float: left;
   margin-top: 37px;
@@ -382,7 +393,6 @@ a:hover  {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  height:2.2em;
   width:auto;
 }
 

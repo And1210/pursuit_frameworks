@@ -47,7 +47,7 @@
 						<nav class="main-nav">
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
-								<img src="assets/img/logo.png" height=40/>
+								<img src="assets/img/PursuitLeadership.png" class="logo-img" />
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
@@ -60,8 +60,8 @@
 										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
 										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
 										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
-										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
@@ -102,13 +102,13 @@
                         <div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Me</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase1_comm_me"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase1_comm_me"></textarea>
             							</div>
                         </div>
                         <div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Others</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase1_comm_others"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase1_comm_others"></textarea>
             							</div>
                         </div>
                       </div>
@@ -132,7 +132,7 @@
                         <div style="padding-left: 10px; padding-right: 10px;">
                           <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
             							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase1_completions"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue medium-input" placeholder="" id="phase1_completions"></textarea>
             							</div>
                         </div>
                       </div>
@@ -162,13 +162,13 @@
 											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Me</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase2_comm_me"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase2_comm_me"></textarea>
 												</div>
 											</div>
 											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Others</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase2_comm_others"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase2_comm_others"></textarea>
 												</div>
 											</div>
 										</div>
@@ -192,7 +192,7 @@
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase2_completions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue medium-input" placeholder="" id="phase2_completions"></textarea>
                         </div>
                       </div>
                     </div>
@@ -222,13 +222,13 @@
 											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Me</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase3_comm_me"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase3_comm_me"></textarea>
 												</div>
 											</div>
 											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Others</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase3_comm_others"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase3_comm_others"></textarea>
 												</div>
 											</div>
 										</div>
@@ -252,7 +252,7 @@
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase3_completions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue medium-input" placeholder="" id="phase3_completions"></textarea>
                         </div>
                       </div>
                     </div>
@@ -286,13 +286,13 @@
                         <div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Me</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase4_comm_me"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase4_comm_me"></textarea>
             							</div>
                         </div>
                         <div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
                           <div class="subtitle" style="font-size: 10pt;">By Others</div>
             							<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-            								<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase4_comm_others"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase4_comm_others"></textarea>
             							</div>
                         </div>
                       </div>
@@ -316,7 +316,7 @@
                         <div style="padding-left: 10px; padding-right: 10px;">
                           <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
             							<div class="form-group flex-grow-1 d-flex flex-column">
-            								<textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase4_completions"></textarea>
+            								<textarea class="form-control flex-grow-1	light-blue medium-input" placeholder="" id="phase4_completions"></textarea>
             							</div>
                         </div>
                       </div>
@@ -346,13 +346,13 @@
 											<div class="col-md-6" style="padding-left: 7px !important; padding-right: 1px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Me</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase5_comm_me"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase5_comm_me"></textarea>
 												</div>
 											</div>
 											<div class="col-md-6" style="padding-left: 1px !important; padding-right: 7px !important;" align="center">
 												<div class="subtitle" style="font-size: 10pt;">By Others</div>
 												<div class="form-group flex-grow-1 d-flex flex-column" style="margin-bottom: 1px !important;">
-													<textarea class="form-control flex-grow-1	light-blue md-lg-input" placeholder="" id="phase5_comm_others"></textarea>
+													<textarea class="form-control flex-grow-1	light-blue medium1-input" placeholder="" id="phase5_comm_others"></textarea>
 												</div>
 											</div>
 										</div>
@@ -376,7 +376,7 @@
                       <div style="padding-left: 10px; padding-right: 10px;">
                         <div class="subtitle" style="font-size: 10pt; padding-bottom: 5px;">'<b>Completions</b>' - What was created?</div>
                         <div class="form-group flex-grow-1 d-flex flex-column">
-                          <textarea class="form-control flex-grow-1	light-blue" placeholder="" id="phase5_completions"></textarea>
+                          <textarea class="form-control flex-grow-1	light-blue medium-input" placeholder="" id="phase5_completions"></textarea>
                         </div>
                       </div>
                     </div>

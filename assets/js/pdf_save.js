@@ -17,6 +17,8 @@ function save_pdf(test) {
     let outerHTML = i.outerHTML.split("</");
     oldOuterHTML.push({first: outerHTML[0], second: "</"+outerHTML[1]});
     // $('textarea').replaceWith("<div id='divForTA' class='divTextArea'>"+$('textarea').val().replace(/\n/g, "<br>") + "</div>");
+
+    console.log(i.className.split(new RegExp("\\s")));
   }
   for (let v of variables) {
     $("#"+v).replaceWith("<div id='divForTA' class='divTextArea' align='left'>"+$("#"+v).val().replace(/\n/g, "<br>") + "</div>");
@@ -29,7 +31,7 @@ function save_pdf(test) {
     let img = canvas.toDataURL("image/png");
     pdf.addImage(img, 'png', 0, 0, width, height);
     if (test != false) pdf.save('form.pdf');
-    location.reload();
+    // location.reload();
     // $('#divForTA').replaceWith(oldText);
   });
 }

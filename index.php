@@ -30,7 +30,7 @@
 						<nav class="main-nav">
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
-								<img src="assets/img/logo.png" height=40/>
+								<img src="assets/img/PursuitLeadership.png" class="logo-img" />
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
@@ -43,8 +43,8 @@
 										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
 										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
 										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
-										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
@@ -62,7 +62,7 @@
 				<div class="encase" style="padding-bottom: 20px; padding-top: 20px;">
 					<div class="row" align="center">
 						<div class="col-md-12">
-							<h3 class="title" style="padding-bottom: 10px;">Frameworks</h3>
+							<h3 class="title-burnt-red" style="padding-bottom: 10px;">Frameworks</h3>
 						</div>
 					</div>
 					<div class="row" align="center" style="padding-bottom: 10px;">
@@ -110,7 +110,7 @@
 				<div class="encase" style="padding-bottom: 20px; padding-top: 20px;">
 					<div class="row" align="center">
 						<div class="col-md-12">
-							<h3 class="title" style="padding-bottom: 10px;">Your Account Information</h3>
+							<h3 class="title-burnt-red" style="padding-bottom: 10px;">Your Account Information</h3>
 						</div>
 					</div>
 					<div class="row">

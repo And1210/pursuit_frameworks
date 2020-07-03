@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-8" style="padding: 10px; padding-top: 30px;">
           <p style="font-size: 10pt;">Welcome to the Pursuit Leadership Portal.<br><br>
-            <i>The intention of this site is for your Pursuit Guide to facilitate you in uncovering your authentic leadership through these 100% original frameworks and tools. Upon completion, we recommend that that your personal materials are removed and not remain on this site for an extended period of time.</i>
+            <i>The intention of this site is for your Pursuit Guide to facilitate you in uncovering your authentic leadership through these 100% original frameworks and tools. Upon completion, we recommend that your personal materials are removed and not remain on this site for an extended period of time.</i>
           </p>
         </div>
       </div>

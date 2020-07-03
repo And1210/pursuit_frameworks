@@ -47,7 +47,7 @@
 						<nav class="main-nav">
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
-								<img src="assets/img/logo.png" height=40/>
+								<img src="assets/img/PursuitLeadership.png" class="logo-img" />
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
@@ -60,8 +60,8 @@
 										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
 										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
 										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
-										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
@@ -87,7 +87,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div>
-							<div class="title-sm">Impact On Others</div>
+							<div class="subtitle">Impact On Others</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	yellow medium-input" id="impact_others"></textarea>
 							</div>
@@ -95,7 +95,7 @@
 					</div>
 					<div class="col-md-4 d-flex flex-column">
 						<div>
-							<div class="title-sm"><b>Potential - Possibility I Stand For</b></div>
+							<div class="subtitle"><b>Potential - Possibility I Stand For</b></div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	blue medium-input" id="potential"></textarea>
 							</div>
@@ -103,7 +103,7 @@
 					</div>
 					<div class="col-md-4">
 						<div>
-							<div class="title-sm">Effect On Me</div>
+							<div class="subtitle">Effect On Me</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	yellow medium-input" id="effect_me"></textarea>
 							</div>
@@ -115,7 +115,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-4 d-flex flex-column">
 						<div>
-							<div class="title-sm">Space:</div>
+							<div class="subtitle">Space:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	blue medium-input" id="space"></textarea>
 							</div>
@@ -128,7 +128,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-4 d-flex flex-column">
 						<div style="position: relative; width: 120%; left: -10%;">
-							<div class="title-sm">Show-Up:</div>
+							<div class="subtitle">Show-Up:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	light-blue medium-input" id="show_up"></textarea>
 							</div>
@@ -141,7 +141,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-4 d-flex flex-column">
 						<div style="position: relative; width: 140%; left: -20%;">
-							<div class="title-sm">My Contribution:</div>
+							<div class="subtitle">My Contribution:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	green medium-input" id="contribution"></textarea>
 							</div>
@@ -154,7 +154,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-4 d-flex flex-column">
 						<div style="position: relative; width: 160%; left: -30%;">
-							<div class="title-sm">Meaningful To Me Because (Impact I Desire):</div>
+							<div class="subtitle">Meaningful To Me Because (Impact I Desire):</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	purple medium-input" id="meaningful_me"></textarea>
 							</div>
@@ -167,7 +167,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-4 d-flex flex-column">
 						<div style="position: relative; width: 180%; left: -40%;">
-							<div class="title-sm">Meaningful Experience:</div>
+							<div class="subtitle">Meaningful Experience:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	orange medium-input" id="meaningful_experience"></textarea>
 							</div>
@@ -180,7 +180,7 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-8 d-flex flex-column">
 						<div style="position: relative; "><!--width: 180%; left: -40%;">-->
-							<div class="title-sm">Handle:</div>
+							<div class="subtitle">Handle:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	page-tab small-input" id="handle"></textarea>
 								<!-- <input type="text" id="handle"></input> -->
@@ -194,7 +194,7 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-8 d-flex flex-column">
 						<div style="position: relative; width: 120%; left: -10%;"><!--width: 180%; left: -40%;">-->
-							<div class="title-sm">My Choice:</div>
+							<div class="subtitle">My Choice:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	blue small-input" id="my_choice"></textarea>
 								<!-- <input type="text" id="my_choice"></input> -->
@@ -208,7 +208,7 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-8 d-flex flex-column">
 						<div style="position: relative; width: 130%; left: -15%;"><!--width: 180%; left: -40%;">-->
-							<div class="title-sm">What I Truly Want:</div>
+							<div class="subtitle">What I Truly Want:</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	grey small-input" id="truly_want"></textarea>
 								<!-- <input type="text" id="truly_want"></input> -->

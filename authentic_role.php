@@ -40,6 +40,7 @@
 	</head>
 
 	<body>
+
 		<header class="header-area header-sticky" id="header">
 			<div class="">
 				<div class="">
@@ -47,7 +48,7 @@
 						<nav class="main-nav">
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
-								<img src="assets/img/logo.png" height=40/>
+								<img src="assets/img/PursuitLeadership.png" class="logo-img" />
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
@@ -60,8 +61,8 @@
 										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
 										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
 										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
-										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>
@@ -84,29 +85,29 @@
           <div class="col-md-6">
             <div class="encase encase-burnt-red" style="padding: 10px;">
               <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-6">
                   <div class="subtitle"><b>Judgments of...</b></div>
                   <div class="subtitle">Others</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_other"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="judgement_other"></textarea>
     							</div>
                   <div class="subtitle">Self</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_self"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="judgement_self"></textarea>
     							</div>
                   <div class="subtitle">Work</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_work"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium-input" placeholder="" id="judgement_work"></textarea>
     							</div>
                   <div class="subtitle">Life</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="judgement_life"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium-input" placeholder="" id="judgement_life"></textarea>
     							</div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                   <div class="subtitle" align="right"><b>Relationship to Expectations</b></div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="expectations"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium2-input" placeholder="" id="expectations"></textarea>
     							</div>
                   <div class="encase-block encase-burnt-red" style="padding: 10px; padding-bottom: 0px !important;">
                     <div class="subtitle" align="center"><b>Assumed Role</b></div>
@@ -114,11 +115,11 @@
       							<input type="text" class="title-border" id="assumed_label">
                     <div class="subtitle">Pursue</div>
       							<div class="form-group flex-grow-1 d-flex flex-column">
-      								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="assumed_pursue"></textarea>
+      								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="assumed_pursue"></textarea>
       							</div>
                     <div class="subtitle">Assumed Strategies</div>
       							<div class="form-group flex-grow-1 d-flex flex-column">
-      								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="assumed_strategies"></textarea>
+      								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="assumed_strategies"></textarea>
       							</div>
                   </div>
                 </div>
@@ -144,10 +145,10 @@
           <div class="col-md-6">
             <div class="encase encase-blue" style="padding: 10px;">
               <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                   <div class="subtitle" align="left"><b>Relationship to Belief</b></div>
                   <div class="form-group flex-grow-1 d-flex flex-column">
-                    <textarea class="form-control flex-grow-1	no-border" placeholder="" id="belief"></textarea>
+                    <textarea class="form-control flex-grow-1	no-border medium2-input" placeholder="" id="belief"></textarea>
                   </div>
                   <div class="encase-block encase-blue" style="padding: 10px; padding-bottom: 0px !important;">
                     <div class="subtitle" align="center"><b>True Role</b></div>
@@ -155,31 +156,31 @@
                     <input type="text" class="title-border" id="true_label">
                     <div class="subtitle">Create</div>
                     <div class="form-group flex-grow-1 d-flex flex-column">
-                      <textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="true_create"></textarea>
+                      <textarea class="form-control flex-grow-1	no-border" placeholder="" id="true_create"></textarea>
                     </div>
                     <div class="subtitle">True Strategies</div>
                     <div class="form-group flex-grow-1 d-flex flex-column">
-                      <textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="true_strategies"></textarea>
+                      <textarea class="form-control flex-grow-1	no-border" placeholder="" id="true_strategies"></textarea>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-6">
                   <div class="subtitle"><b>Being with...</b></div>
                   <div class="subtitle">Others</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_other"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="being_other"></textarea>
     							</div>
                   <div class="subtitle">Self</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_self"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium1-input" placeholder="" id="being_self"></textarea>
     							</div>
                   <div class="subtitle">Work</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_work"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium-input" placeholder="" id="being_work"></textarea>
     							</div>
                   <div class="subtitle">Life</div>
     							<div class="form-group flex-grow-1 d-flex flex-column">
-    								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="being_life"></textarea>
+    								<textarea class="form-control flex-grow-1	no-border medium-input" placeholder="" id="being_life"></textarea>
     							</div>
                 </div>
               </div>

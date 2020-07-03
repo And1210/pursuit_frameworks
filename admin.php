@@ -29,6 +29,7 @@
 	</head>
 
 	<body>
+
 		<header class="header-area header-sticky" id="header">
 			<div class="">
 				<div class="">
@@ -36,7 +37,7 @@
 						<nav class="main-nav">
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
-								<img src="assets/img/logo.png" height=40/>
+								<img src="assets/img/PursuitLeadership.png" class="logo-img" />
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
@@ -49,8 +50,8 @@
 										<a href="./purpose.php" class="text-page-tab" style="font-size: 12pt !important;">My Purpose</a>
 										<a href="./world_view.php" class="text-page-tab" style="font-size: 12pt !important;">My World View</a>
 										<a href="./lighthouse.php" class="text-page-tab" style="font-size: 12pt !important;">My Proactive Stand</a>
-										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./authority.php" class="text-page-tab" style="font-size: 12pt !important;">My Relationship to Authority</a>
+										<a href="./authentic_role.php" class="text-page-tab" style="font-size: 12pt !important;">My Authentic True Role</a>
 										<a href="./natural_approach.php" class="text-page-tab" style="font-size: 12pt !important;">My Natural Approach</a>
 									</div>
 								</li>

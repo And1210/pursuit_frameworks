@@ -40,6 +40,7 @@
 	</head>
 
 	<body>
+
 		<header class="header-area header-sticky" id="header">
 			<div class="">
 				<div class="">
@@ -47,7 +48,7 @@
 						<nav class="main-nav">
 							<!-- ***** Logo Start ***** -->
 							<a href="/index.php" class="logo">
-								<img src="assets/img/logo.png" height=40/>
+								<img src="assets/img/PursuitLeadership.png" class="logo-img" />
 							</a>
 							<!-- ***** Logo End ***** -->
 							<!-- ***** Menu Start ***** -->
