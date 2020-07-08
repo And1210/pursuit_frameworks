@@ -144,8 +144,11 @@
 				</div>
 
 				<div class="row" data-html2canvas-ignore="true">
-					<div class="col-md-12" align="center">
+					<div class="col-md-6" align="right">
 						<a class="save-link" href="javascript:save()">Save</a>
+					</div>
+					<div class="col-md-6" align="left">
+						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
 			</div>

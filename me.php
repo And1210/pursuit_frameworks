@@ -35,7 +35,10 @@
 
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery-3.5.0.min.js"></script>
+		<script src="assets/js/jspdf.min.js"></script>
+		<script src="assets/js/html2canvas.min.js"></script>
 
+		<script src="assets/js/pdf_save.js"></script>
 		<script src="assets/js/me.js"></script>
 	</head>
 
@@ -74,7 +77,7 @@
 			</div>
 		</header>
 
-		<div class="body_content">
+		<div class="body_content" id="to_download">
 			<h3 align="center" class="title"><b>My Meaningful Experiences</b></h3>
 
 			<div class="container">
@@ -175,8 +178,11 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-12" align="center">
+					<div class="col-md-6" align="right">
 						<a class="save-link" href="javascript:save()">Save</a>
+					</div>
+					<div class="col-md-6" align="left">
+						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
 			</div>
