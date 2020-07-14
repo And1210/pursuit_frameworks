@@ -264,13 +264,13 @@
 				<div class="row">
 					<div class="col-md-1"></div>
 					<div class="col-md-4 d-flex flex-column">
-						<input type="text" class="burnt-red" id="position_neg">
+						<input type="text" class="input burnt-red" id="position_neg">
 					</div>
 					<div class="col-md-2" align="center">
 						<img src="assets/img/globe.png" height=50>
 					</div>
 					<div class="col-md-4 d-flex flex-column">
-						<input type="text" class="blue" id="position_pos">
+						<input type="text" class="input blue" id="position_pos">
 					</div>
 					<div class="col-md-1"></div>
 				</div>
@@ -285,7 +285,7 @@
 					<div class="col-md-3"></div>
 				</div>
 
-				<div class="row">
+				<div class="row" data-html2canvas-ignore="true">
 					<div class="col-md-6" align="right">
 						<a class="save-link" href="javascript:save()">Save</a>
 					</div>
@@ -293,6 +293,19 @@
 						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
+
+				<div class="row" style="padding-top: 5px;">
+					<div class="col-md-12" align="right">
+						<h6 id="datetime"></h6>
+					</div>
+				</div>
+				<script>
+					let date = new Date();
+					setInterval(() => {
+						date = new Date();
+						$('#datetime')[0].innerHTML = date.toLocaleString();
+					}, 1000);
+				</script>
 			</div>
 		</div>
 	</body>

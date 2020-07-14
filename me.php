@@ -87,7 +87,7 @@
 					<div class="col-md-4 d-flex flex-column">
 						<div class="encase encase-blue breathe-right" style="padding: 10px;">
 							<label class="subtitle" align="left"><b>1</b> Title: </label>
-							<input type="text" class="title-border" id="title1">
+							<input type="text" class="title-border input" id="title1">
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	black orange" placeholder="Description" id="description1"></textarea>
 							</div>
@@ -115,7 +115,7 @@
 					<div class="col-md-4 d-flex flex-column">
 						<div class="encase encase-blue breathe-right" style="padding: 10px;">
 							<label class="subtitle" align="left"><b>2</b> Title: </label>
-							<input type="text" class="title-border" id="title2">
+							<input type="text" class="title-border input" id="title2">
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	black orange" placeholder="Description"id="description2"></textarea>
 							</div>
@@ -143,7 +143,7 @@
 					<div class="col-md-4 d-flex flex-column">
 						<div class="encase encase-blue breathe-right" style="padding: 10px;">
 							<label class="subtitle" align="left"><b>3</b> Title: </label>
-							<input type="text" class="title-border" id="title3">
+							<input type="text" class="title-border input" id="title3">
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1	black orange" placeholder="Description" id="description3"></textarea>
 							</div>
@@ -177,7 +177,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row" data-html2canvas-ignore="true">
 					<div class="col-md-6" align="right">
 						<a class="save-link" href="javascript:save()">Save</a>
 					</div>
@@ -185,6 +185,19 @@
 						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
+
+				<div class="row" style="padding-top: 5px;">
+					<div class="col-md-12" align="right">
+						<h6 id="datetime"></h6>
+					</div>
+				</div>
+				<script>
+					let date = new Date();
+					setInterval(() => {
+						date = new Date();
+						$('#datetime')[0].innerHTML = date.toLocaleString();
+					}, 1000);
+				</script>
 			</div>
 		</div>
 	</body>

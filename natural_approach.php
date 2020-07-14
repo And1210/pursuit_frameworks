@@ -90,7 +90,7 @@
                 <div class="col-md-12">
                   <div class="encase-block encase-light-blue" style="padding: 10px;">
       							<label class="subtitle" align="left">Phase 1:</label>
-      							<input type="text" class="title-border" style="width: 70%;" id="phase1_label">
+      							<input type="text" class="input title-border" style="width: 70%;" id="phase1_label">
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@
               <div class="col-md-12">
                 <div class="encase-block encase-light-blue" style="padding: 10px;">
                   <label class="subtitle" align="left">Phase 2:</label>
-                  <input type="text" class="title-border" style="width: 70%;" id="phase2_label">
+                  <input type="text" class="input title-border" style="width: 70%;" id="phase2_label">
                 </div>
               </div>
             </div>
@@ -210,7 +210,7 @@
               <div class="col-md-12">
                 <div class="encase-block encase-light-blue" style="padding: 10px;">
                   <label class="subtitle" align="left">Phase 3:</label>
-                  <input type="text" class="title-border" style="width: 70%;" id="phase3_label">
+                  <input type="text" class="input title-border" style="width: 70%;" id="phase3_label">
                 </div>
               </div>
             </div>
@@ -274,7 +274,7 @@
                 <div class="col-md-12">
                   <div class="encase-block encase-light-blue" style="padding: 10px;">
       							<label class="subtitle" align="left">Phase 4:</label>
-      							<input type="text" class="title-border" style="width: 70%;" id="phase4_label">
+      							<input type="text" class="input title-border" style="width: 70%;" id="phase4_label">
                   </div>
                 </div>
               </div>
@@ -334,7 +334,7 @@
               <div class="col-md-12">
                 <div class="encase-block encase-light-blue" style="padding: 10px;">
                   <label class="subtitle" align="left">Phase 5:</label>
-                  <input type="text" class="title-border" style="width: 70%;" id="phase5_label">
+                  <input type="text" class="input title-border" style="width: 70%;" id="phase5_label">
                 </div>
               </div>
             </div>
@@ -422,7 +422,7 @@
         </div>
 
 
-				<div class="row">
+				<div class="row" data-html2canvas-ignore="true">
 					<div class="col-md-6" align="right">
 						<a class="save-link" href="javascript:save()">Save</a>
 					</div>
@@ -430,6 +430,19 @@
 						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
+
+				<div class="row" style="padding-top: 5px;">
+					<div class="col-md-12" align="right">
+						<h6 id="datetime"></h6>
+					</div>
+				</div>
+				<script>
+					let date = new Date();
+					setInterval(() => {
+						date = new Date();
+						$('#datetime')[0].innerHTML = date.toLocaleString();
+					}, 1000);
+				</script>
 			</div>
 		</div>
 	</body>

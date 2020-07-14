@@ -1,4 +1,4 @@
-let variables = ['judgment_other', 'judgment_self', 'judgment_work', 'judgment_life', 'expectations', 'assumed_pursue', 'assumed_strategies', 'seeking_recognition', 'seeking_acceptance', 'belief', 'true_create', 'true_strategies', 'being_other', 'being_self', 'being_work', 'being_life', 'giving_recognition', 'giving_acknowledgment', 'giving_acceptance'];
+let variables = ['judgement_other', 'judgement_self', 'judgement_work', 'judgement_life', 'expectations', 'assumed_pursue', 'assumed_strategies', 'seeking_recognition', 'seeking_acceptance', 'belief', 'true_create', 'true_strategies', 'being_other', 'being_self', 'being_work', 'being_life', 'giving_recognition', 'giving_acknowledgment', 'giving_acceptance'];
 
 $(document).ready(() => {
   $('#save').click(() => {

@@ -145,7 +145,7 @@
           </div>
         </div>
 
-				<div class="row">
+				<div class="row" data-html2canvas-ignore="true">
 					<div class="col-md-6" align="right">
 						<a class="save-link" href="javascript:save()">Save</a>
 					</div>
@@ -153,6 +153,19 @@
 						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
+
+				<div class="row" style="padding-top: 5px;">
+					<div class="col-md-12" align="right">
+						<h6 id="datetime"></h6>
+					</div>
+				</div>
+				<script>
+					let date = new Date();
+					setInterval(() => {
+						date = new Date();
+						$('#datetime')[0].innerHTML = date.toLocaleString();
+					}, 1000);
+				</script>
 			</div>
 		</div>
 	</body>

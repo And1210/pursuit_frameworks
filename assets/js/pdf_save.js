@@ -1,22 +1,36 @@
 const colourClassNames = ["black", "blue", "light-blue", "purple", "red", "green", "yellow", "grey", "pink", "orange", "burnt-red", "no-border"];
 const sizeClassNames = ["small-input", "medium-input", "medium1-input", "medium2-input", "large-input"];
+const inputClassNames = ["title-border"];
 
 function save_pdf(test) {
   let oldValues = [];
   let oldOuterHTML = []
   let colourClassToAdd = [];
   let sizeClassToAdd = [];
+  let inputClassToAdd = [];
   let heights = [];
-  for (let i of $('textarea')) {
+  let widths = [];
+  for (let v of variables) {
+    let i = $("#"+v)[0];
     oldValues.push(i.value);
     let outerHTML = i.outerHTML.split("</");
     let height = i.offsetHeight;
+    let width = i.offsetWidth;
     heights.push(height);
+    widths.push(width);
     oldOuterHTML.push({first: outerHTML[0], second: "</"+outerHTML[1]});
     // $('textarea').replaceWith("<div id='divForTA' class='divTextArea'>"+$('textarea').val().replace(/\n/g, "<br>") + "</div>");
 
     let curClassName = i.className.split(new RegExp("\\s"));
     let found = false;
+    let isInput = false;
+    for (let c of curClassName) {
+      if (c == "input") {
+        isInput = true;
+        break;
+      }
+    }
+
     for (let c of curClassName) {
       for (let cl of colourClassNames) {
         if (cl == c) {
@@ -39,24 +53,33 @@ function save_pdf(test) {
         }
       }
       if (found) break;
+      for (let cl of inputClassNames) {
+        if (cl == c) {
+          found = true;
+          sizeClassToAdd.push(cl);
+          break;
+        }
+      }
+      if (found) break;
     }
-    if (!found) sizeClassToAdd.push("regular");
+    if (!found && !isInput) sizeClassToAdd.push("regular");
+    inputClassToAdd.push(isInput ? "input" : "");
   }
   let count = 0;
   for (let v of variables) {
-    console.log(v);
-    $("#"+v).replaceWith("<div id='divForTA' class='textarea " + colourClassToAdd[count] + " " + sizeClassToAdd[count] + "' align='left' style='height: " + heights[count] + "'>"+$("#"+v).val().replace(/\n/g, "<br>") + "</div>");
+    let setClass = "textarea";
+    if (inputClassToAdd[count] == "input") setClass = "input";
+    $("#"+v).replaceWith("<div id='divForTA' class='" + setClass + " " + colourClassToAdd[count] + " " + sizeClassToAdd[count] + "' align='left' style='height: " + heights[count] + "px; width: " + widths[count] + "px;'>"+$("#"+v).val().replace(/\n/g, "<br>") + "</div>");
     count++;
   }
   html2canvas($('#to_download')[0], {scrollY: -window.scrollY}).then((canvas)=>{
-    let pdf = new jsPDF('l', 'mm', 'a3');
+    let pdf = new jsPDF('l', 'px', [canvas.width, canvas.height]);
     let width = pdf.internal.pageSize.width;
     let height = pdf.internal.pageSize.height;
 
     let img = canvas.toDataURL("image/png");
     pdf.addImage(img, 'png', 0, 0, width, height);
     if (test != false) pdf.save('form.pdf');
-    location.reload();
-    // $('#divForTA').replaceWith(oldText);
+    // location.reload();
   });
 }

@@ -139,7 +139,7 @@
 							</div>
 						</div>
 						<h6 class="subtitle purpose-page"><b>Purpose Statment Handle</b></h6>
-						<input type="text" class="purple" style="width: 75%;" id="handle">
+						<input type="text" class="input purple" style="width: 75%;" id="handle">
 					</div>
 				</div>
 
@@ -151,6 +151,19 @@
 						<a class="save-link" href="javascript:save_pdf()">Print</a>
 					</div>
 				</div>
+
+				<div class="row" style="padding-top: 5px;">
+					<div class="col-md-12" align="right">
+						<h6 id="datetime"></h6>
+					</div>
+				</div>
+				<script>
+					let date = new Date();
+					setInterval(() => {
+						date = new Date();
+						$('#datetime')[0].innerHTML = date.toLocaleString();
+					}, 1000);
+				</script>
 			</div>
 		</div>
 	</body>
@@ -172,5 +185,4 @@
 			</div>
 		</div>
 	</footer>
-
 </html>
