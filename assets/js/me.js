@@ -48,11 +48,9 @@ function load() {
     data: 'form=me',
     success: (data) => {
       let json = JSON.parse(data);
-      for (let i = 1; i <= 3; i++) {
-        for (let variable of variables) {
-          let v = variable+i;
-          $('#'+v).val(json[v]);
-        }
+      for (let variable of variables) {
+        let v = variable;
+        $('#'+v).val(json[v]);
       }
       $('#fundamental').val(json["fundamental"]);
     },

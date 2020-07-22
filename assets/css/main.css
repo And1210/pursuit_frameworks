@@ -366,6 +366,7 @@ div.textarea {
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 4px;
+	padding: 6px 12px 6px 12px !important;
 }
 
 table, th, td {
@@ -375,6 +376,11 @@ table, th, td {
 /* Footer */
 hr.footer-line {
 	border-top: 1px solid black;
+}
+
+.logoCopyrightClone {
+	position: relative;
+	top: -40px;
 }
 
 p.copyright {

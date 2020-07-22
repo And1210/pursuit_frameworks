@@ -1,8 +1,19 @@
-const colourClassNames = ["black", "blue", "light-blue", "purple", "red", "green", "yellow", "grey", "pink", "orange", "burnt-red", "no-border"];
+const colourClassNames = ["black", "blue", "light-blue", "purple", "red", "green", "yellow", "grey", "pink", "orange", "burnt-red", "no-border", "encase-black", "encase-blue", "encase-light-blue", "encase-purple", "encase-red", "encase-green", "encase-yellow", "encase-grey", "encase-pink", "encase-orange", "encase-burnt-red"];
 const sizeClassNames = ["small-input", "medium-input", "medium1-input", "medium2-input", "large-input"];
 const inputClassNames = ["title-border"];
 
 function save_pdf(test) {
+  //Save data
+  save();
+  alert("Creating pdf now... A download should pop up soon");
+  //Add time
+  let date = new Date();
+  $('#datetime')[0].innerHTML = date.toLocaleString();
+  //Add whitespace to top
+  $("#to_download").css("padding-top", "50px");
+  //Add logo and copyright to bottom
+  $(".logoAndCopyright").clone().appendTo($(".logoCopyrightClone")[0]);
+
   let oldValues = [];
   let oldOuterHTML = []
   let colourClassToAdd = [];
@@ -21,6 +32,7 @@ function save_pdf(test) {
     oldOuterHTML.push({first: outerHTML[0], second: "</"+outerHTML[1]});
     // $('textarea').replaceWith("<div id='divForTA' class='divTextArea'>"+$('textarea').val().replace(/\n/g, "<br>") + "</div>");
 
+    //Change all textareas and inputs to divs
     let curClassName = i.className.split(new RegExp("\\s"));
     let found = false;
     let isInput = false;
@@ -65,6 +77,7 @@ function save_pdf(test) {
     if (!found && !isInput) sizeClassToAdd.push("regular");
     inputClassToAdd.push(isInput ? "input" : "");
   }
+
   let count = 0;
   for (let v of variables) {
     let setClass = "textarea";
@@ -80,6 +93,6 @@ function save_pdf(test) {
     let img = canvas.toDataURL("image/png");
     pdf.addImage(img, 'png', 0, 0, width, height);
     if (test != false) pdf.save('form.pdf');
-    // location.reload();
+    location.reload();
   });
 }

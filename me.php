@@ -89,25 +89,25 @@
 							<label class="subtitle" align="left"><b>1</b> Title: </label>
 							<input type="text" class="title-border input" id="title1">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black orange" placeholder="Description" id="description1"></textarea>
+								<textarea class="form-control flex-grow-1	orange" placeholder="Description" id="description1"></textarea>
 							</div>
 							<label class="subtitle" align="left">Meaningfulness: </label>
 							<p class="hint"><i>To You...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black green" placeholder="To You..." id="meaningfulness_you1"></textarea>
+								<textarea class="form-control flex-grow-1	green" placeholder="To You..." id="meaningfulness_you1"></textarea>
 							</div>
 							<p class="hint"><i>To Others...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black green" placeholder="To Others..." id="meaningfulness_other1"></textarea>
+								<textarea class="form-control flex-grow-1	green" placeholder="To Others..." id="meaningfulness_other1"></textarea>
 							</div>
 							<label class="subtitle" align="left">Impact: </label>
 							<p class="hint"><i>To You...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black light-blue" placeholder="To You..." id="impact_you1"></textarea>
+								<textarea class="form-control flex-grow-1	light-blue" placeholder="To You..." id="impact_you1"></textarea>
 							</div>
 							<p class="hint"><i>To Others...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black light-blue" placeholder="To Others..." id="impact_other1"></textarea>
+								<textarea class="form-control flex-grow-1	light-blue" placeholder="To Others..." id="impact_other1"></textarea>
 							</div>
 						</div>
 					</div>
@@ -117,25 +117,25 @@
 							<label class="subtitle" align="left"><b>2</b> Title: </label>
 							<input type="text" class="title-border input" id="title2">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black orange" placeholder="Description"id="description2"></textarea>
+								<textarea class="form-control flex-grow-1	orange" placeholder="Description"id="description2"></textarea>
 							</div>
 							<label class="subtitle" align="left">Meaningfulness: </label>
 							<p class="hint"><i>To You...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black green" placeholder="To You..." id="meaningfulness_you2"></textarea>
+								<textarea class="form-control flex-grow-1	green" placeholder="To You..." id="meaningfulness_you2"></textarea>
 							</div>
 							<p class="hint"><i>To Others...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black green" placeholder="To Others..." id="meaningfulness_other2"></textarea>
+								<textarea class="form-control flex-grow-1	green" placeholder="To Others..." id="meaningfulness_other2"></textarea>
 							</div>
 							<label class="subtitle" align="left">Impact: </label>
 							<p class="hint"><i>To You...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black light-blue" placeholder="To You..." id="impact_you2"></textarea>
+								<textarea class="form-control flex-grow-1	light-blue" placeholder="To You..." id="impact_you2"></textarea>
 							</div>
 							<p class="hint"><i>To Others...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black light-blue" placeholder="To Others..." id="impact_other2"></textarea>
+								<textarea class="form-control flex-grow-1	light-blue" placeholder="To Others..." id="impact_other2"></textarea>
 							</div>
 						</div>
 					</div>
@@ -145,25 +145,25 @@
 							<label class="subtitle" align="left"><b>3</b> Title: </label>
 							<input type="text" class="title-border input" id="title3">
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black orange" placeholder="Description" id="description3"></textarea>
+								<textarea class="form-control flex-grow-1	orange" placeholder="Description" id="description3"></textarea>
 							</div>
 							<label class="subtitle" align="left">Meaningfulness: </label>
 							<p class="hint"><i>To You...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black green" placeholder="To You..." id="meaningfulness_you3"></textarea>
+								<textarea class="form-control flex-grow-1	green" placeholder="To You..." id="meaningfulness_you3"></textarea>
 							</div>
 							<p class="hint"><i>To Others...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black green" placeholder="To Others..." id="meaningfulness_other3"></textarea>
+								<textarea class="form-control flex-grow-1	green" placeholder="To Others..." id="meaningfulness_other3"></textarea>
 							</div>
 							<label class="subtitle" align="left">Impact: </label>
 							<p class="hint"><i>To You...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black light-blue" placeholder="To You..." id="impact_you3"></textarea>
+								<textarea class="form-control flex-grow-1	light-blue" placeholder="To You..." id="impact_you3"></textarea>
 							</div>
 							<p class="hint"><i>To Others...</i></p>
 							<div class="form-group flex-grow-1 d-flex flex-column">
-								<textarea class="form-control flex-grow-1	black light-blue" placeholder="To Others..." id="impact_other3"></textarea>
+								<textarea class="form-control flex-grow-1	light-blue" placeholder="To Others..." id="impact_other3"></textarea>
 							</div>
 						</div>
 					</div>
@@ -188,22 +188,18 @@
 
 				<div class="row" style="padding-top: 5px;">
 					<div class="col-md-12" align="right">
-						<h6 id="datetime"></h6>
+						<div style="font-size: 10pt;" id="datetime"></div>
 					</div>
 				</div>
-				<script>
-					let date = new Date();
-					setInterval(() => {
-						date = new Date();
-						$('#datetime')[0].innerHTML = date.toLocaleString();
-					}, 1000);
-				</script>
+
+				<div class="logoCopyrightClone">
+				</div>
 			</div>
 		</div>
 	</body>
 
 	<footer>
-		<div class="container body_content">
+		<div class="container body_content logoAndCopyright">
 			<hr class="footer-line">
 			<div class="row">
 				<div class="col-sm-2">

@@ -433,22 +433,18 @@
 
 				<div class="row" style="padding-top: 5px;">
 					<div class="col-md-12" align="right">
-						<h6 id="datetime"></h6>
+						<div style="font-size: 10pt;" id="datetime"></div>
 					</div>
 				</div>
-				<script>
-					let date = new Date();
-					setInterval(() => {
-						date = new Date();
-						$('#datetime')[0].innerHTML = date.toLocaleString();
-					}, 1000);
-				</script>
+
+				<div class="logoCopyrightClone">
+				</div>
 			</div>
 		</div>
 	</body>
 
 	<footer>
-		<div class="container body_content">
+		<div class="container body_content logoAndCopyright">
 			<hr class="footer-line">
 			<div class="row">
 				<div class="col-sm-2">
