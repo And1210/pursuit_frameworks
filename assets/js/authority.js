@@ -1,4 +1,5 @@
 let variables = ['describe_her', 'see_her', 'loved_her', 'impact_her', 'tension', 'assumed_role', 'true_role', 'describe_him', 'see_him', 'loved_him', 'impact_him'];
+let siteName = "MyRelationshipToAuthority";
 
 $(document).ready(() => {
   $('#save').click(() => {

@@ -1,4 +1,5 @@
 let variables = ['hope', 'doings', 'creations', 'intentions', 'exist_to', 'results_in', 'myself_others', 'purpose_statement', 'handle'];
+let siteName = "MyEssentialPurpose";
 
 $(document).ready(() => {
   $('#save').click(() => {

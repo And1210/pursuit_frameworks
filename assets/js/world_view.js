@@ -1,4 +1,5 @@
 let variables = ['feel_neg', 'big_world_neg', 'big_world_pos', 'world_communities_neg', 'world_communities_pos', 'feel_pos', 'react_neg', 'work_world_neg', 'work_world_pos', 'respond_pos', 'impact_neg', 'personal_world_neg', 'personal_world_pos', 'impact_pos', 'position_neg', 'position_pos', 'thoughts'];
+let siteName = "MyWorldView";
 
 $(document).ready(() => {
   $('#save').click(() => {

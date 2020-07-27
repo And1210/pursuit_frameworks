@@ -230,12 +230,6 @@
 					</div>
 				</div>
 
-				<div class="row" style="padding-top: 5px;">
-					<div class="col-md-12" align="right">
-						<div style="font-size: 10pt;" id="datetime"></div>
-					</div>
-				</div>
-
 				<div class="logoCopyrightClone">
 				</div>
 			</div>
@@ -245,6 +239,11 @@
 	<footer>
 		<div class="container body_content logoAndCopyright">
 			<hr class="footer-line">
+			<div class="row" style="padding-top: 5px;">
+				<div class="col-md-12" align="right">
+					<div style="font-size: 10pt;" id="datetime"></div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-sm-2">
 					<img src="assets/img/logo.png" height=40>

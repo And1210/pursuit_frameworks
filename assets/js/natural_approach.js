@@ -1,4 +1,5 @@
 let variables = ['phase1_label', 'phase1_comm_me', 'phase1_comm_others', 'phase1_actions', 'phase1_completions', 'phase2_label', 'phase2_comm_me', 'phase2_comm_others', 'phase2_actions', 'phase2_completions', 'phase3_label', 'phase3_comm_me', 'phase3_comm_others', 'phase3_actions', 'phase3_completions', 'phase4_label', 'phase4_comm_me', 'phase4_comm_others', 'phase4_actions', 'phase4_completions', 'phase5_label', 'phase5_comm_me', 'phase5_comm_others', 'phase5_actions', 'phase5_completions', 'finished', 'lives'];
+let siteName = "MyNaturalApproach";
 
 $(document).ready(() => {
   $('#save').click(() => {

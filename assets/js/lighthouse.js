@@ -1,4 +1,5 @@
 let variables = ['impact_others', 'effect_me', 'potential', 'space', 'show_up', 'contribution', 'meaningful_me', 'meaningful_experience', 'handle', 'my_choice', 'truly_want'];
+let siteName = "MyProactiveStand";
 
 $(document).ready(() => {
   $('#save').click(() => {

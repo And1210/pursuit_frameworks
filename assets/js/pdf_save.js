@@ -92,7 +92,11 @@ function save_pdf(test) {
 
     let img = canvas.toDataURL("image/png");
     pdf.addImage(img, 'png', 0, 0, width, height);
-    if (test != false) pdf.save('form.pdf');
-    location.reload();
+
+    $.post("/handlers/get_current_user.php", (data, status) => {
+      let json = JSON.parse(data);
+      if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
+      location.reload();
+    });
   });
 }

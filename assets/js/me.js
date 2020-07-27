@@ -1,4 +1,5 @@
 let variables = ['title1', 'description1', 'meaningfulness_you1', 'meaningfulness_other1', 'impact_you1', 'impact_other1', 'title2', 'description2', 'meaningfulness_you2', 'meaningfulness_other2', 'impact_you2', 'impact_other2', 'title3', 'description3', 'meaningfulness_you3', 'meaningfulness_other3', 'impact_you3', 'impact_other3', 'fundamental'];
+let siteName = "MyMeaningfulExperiences";
 
 $(document).ready(() => {
   $('#save').click(() => {
