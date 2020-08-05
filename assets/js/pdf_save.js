@@ -2,6 +2,13 @@ const colourClassNames = ["black", "blue", "light-blue", "purple", "red", "green
 const sizeClassNames = ["small-input", "medium-input", "medium1-input", "medium2-input", "large-input"];
 const inputClassNames = ["title-border"];
 
+function expandTextArea(jq_in){
+    jq_in.each(function(index, elem){
+        // This line will work with pure Javascript (taken from NicB's answer):
+        elem.style.height = elem.scrollHeight+3+'px';
+    });
+}
+
 function save_pdf(test) {
   //Save data
   save();
@@ -23,6 +30,7 @@ function save_pdf(test) {
   let widths = [];
   for (let v of variables) {
     let i = $("#"+v)[0];
+    expandTextArea($("#"+v));
     oldValues.push(i.value);
     let outerHTML = i.outerHTML.split("</");
     let height = i.offsetHeight;

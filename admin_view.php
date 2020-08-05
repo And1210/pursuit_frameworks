@@ -33,10 +33,13 @@
     <input type="text" name="get_user" id="get_user">
     <input type="button" id="get_data" value="Get Data"><br><br>
 
-    <input type="button" id="world_view" value="World View">
+		<input type="button" id="me" value="Meaningful Experiences">
     <input type="button" id="purpose" value="Purpose">
-    <input type="button" id="me" value="Me">
-    <input type="button" id="lighthouse" value="Lighthouse">
+    <input type="button" id="world_view" value="World View">
+    <input type="button" id="lighthouse" value="Proactive Stand">
+    <input type="button" id="authority" value="Relationship To Authority">
+    <input type="button" id="authentic_role" value="Authentic Role">
+    <input type="button" id="natural_approach" value="Natural Approach">
 
     <br><br>
     <i><div id="result"></div></i>

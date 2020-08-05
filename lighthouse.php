@@ -239,19 +239,17 @@
 	<footer>
 		<div class="container body_content logoAndCopyright">
 			<hr class="footer-line">
-			<div class="row" style="padding-top: 5px;">
-				<div class="col-md-12" align="right">
-					<div style="font-size: 10pt;" id="datetime"></div>
-				</div>
-			</div>
 			<div class="row">
 				<div class="col-sm-2">
 					<img src="assets/img/logo.png" height=40>
 				</div>
 				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
+				<div class="col-sm-4" align="center">
 					<p class="copyright"><br>Copyright &copy; 2007-2020 Pursuit
 						Development Labs Inc. All Rights Reserved.</p>
+				</div>
+				<div class="col-sm-4" align="right">
+					<div style="font-size: 8px;" id="datetime"></div>
 				</div>
 				<br>
 				<br>

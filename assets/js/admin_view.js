@@ -37,6 +37,33 @@ $(document).ready(() => {
     }
     window.top.location.href="lighthouse.php?id="+cur_user;
   });
+
+
+  $('#authority').click(() => {
+    if (cur_user == "") {
+      alert('Please select a user before clicking');
+      return;
+    }
+    window.top.location.href="authority.php?id="+cur_user;
+  });
+
+
+  $('#authentic_role').click(() => {
+    if (cur_user == "") {
+      alert('Please select a user before clicking');
+      return;
+    }
+    window.top.location.href="authentic_role.php?id="+cur_user;
+  });
+
+
+  $('#natural_approach').click(() => {
+    if (cur_user == "") {
+      alert('Please select a user before clicking');
+      return;
+    }
+    window.top.location.href="natural_approach.php?id="+cur_user;
+  });
 });
 
 function get_user() {
