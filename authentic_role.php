@@ -115,7 +115,7 @@
                   <div class="encase-block encase-burnt-red" style="padding: 10px; padding-bottom: 0px !important;">
                     <div class="subtitle" align="center"><b>Assumed Role</b></div>
       							<label class="subtitle" align="left">Label: </label>
-      							<input type="text" class="input title-border" id="assumed_label">
+      							<input type="text" class="input title-border" style="width: 75%;" id="assumed_label">
                     <div class="subtitle">Pursue</div>
       							<div class="form-group flex-grow-1 d-flex flex-column">
       								<textarea class="form-control flex-grow-1	no-border" placeholder="" id="assumed_pursue"></textarea>
@@ -156,7 +156,7 @@
                   <div class="encase-block encase-blue" style="padding: 10px; padding-bottom: 0px !important;">
                     <div class="subtitle" align="center"><b>True Role</b></div>
                     <label class="subtitle" align="left">Label: </label>
-                    <input type="text" class="input title-border" id="true_label">
+                    <input type="text" class="input title-border" style="width: 75%;" id="true_label">
                     <div class="subtitle">Create</div>
                     <div class="form-group flex-grow-1 d-flex flex-column">
                       <textarea class="form-control flex-grow-1	no-border" placeholder="" id="true_create"></textarea>

@@ -21,10 +21,11 @@ function login() {
     url: '/handlers/login_handler.php',
     data: dataString,
     success: (data) => {
-      $('#test').html(data);
       let jsonData = JSON.parse(data);
       if (jsonData.success === true) {
         window.location.href="index.php";
+      } else {
+        alert(jsonData.msg);
       }
     },
     fail: (data) => {

@@ -16,6 +16,8 @@
 
   // Finally, destroy the session.
   session_destroy();
+
+  header("location: login.php");
 ?>
 
 <html>

@@ -101,10 +101,24 @@ function save_pdf(test) {
     let img = canvas.toDataURL("image/png");
     pdf.addImage(img, 'png', 0, 0, width, height);
 
-    $.post("/handlers/get_current_user.php", (data, status) => {
-      let json = JSON.parse(data);
-      if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
-      location.reload();
-    });
+    if ($('#to_download0')[0] !== null) {
+      html2canvas($('#to_download0')[0], {scrollY: -window.scrollY}).then((canvas0)=>{
+        pdf.addPage([canvas0.width, canvas0.height]);
+        let img0 = canvas0.toDataURL("image/png");
+        pdf.addImage(img0, 'png', 0, 0, width, height);
+
+        $.post("/handlers/get_current_user.php", (data, status) => {
+          let json = JSON.parse(data);
+          if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
+          location.reload();
+        });
+      });
+    } else {
+      $.post("/handlers/get_current_user.php", (data, status) => {
+        let json = JSON.parse(data);
+        if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
+        location.reload();
+      });
+    }
   });
 }
