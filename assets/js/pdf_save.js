@@ -94,31 +94,44 @@ function save_pdf(test) {
     count++;
   }
   html2canvas($('#to_download')[0], {scrollY: -window.scrollY}).then((canvas)=>{
-    let pdf = new jsPDF('l', 'px', [canvas.width, canvas.height]);
+    let pdf = new jsPDF('l', 'px', [canvas.width, canvas.height], true);
     let width = pdf.internal.pageSize.width;
     let height = pdf.internal.pageSize.height;
 
-    let img = canvas.toDataURL("image/png");
-    pdf.addImage(img, 'png', 0, 0, width, height);
+    let img = canvas.toBlob((blob) => {
+      var url = window.URL || window.webkitURL;
+      var imgSrc = url.createObjectURL(blob);
+      var img = new Image();
+      img.src = imgSrc;
+      img.onload = function () {
+          pdf.addImage(img, 'png', 0, 0, width, height, '', 'MEDIUM');
 
-    if ($('#to_download0')[0] !== null) {
-      html2canvas($('#to_download0')[0], {scrollY: -window.scrollY}).then((canvas0)=>{
-        pdf.addPage([canvas0.width, canvas0.height]);
-        let img0 = canvas0.toDataURL("image/png");
-        pdf.addImage(img0, 'png', 0, 0, width, height);
+          if ($('#to_download0')[0] != null) {
+            html2canvas($('#to_download0')[0], {scrollY: -window.scrollY}).then((canvas0)=>{
+              pdf.addPage([canvas0.width, canvas0.height]);
+              let img0 = canvas0.toBlob((blob0) => {
+                imgSrc = url.createObjectURL(blob0);
+                img = new Image();
+                img.src = imgSrc;
+                img.onload = function() {
+                  pdf.addImage(img, 'png', 0, 0, width, height);
 
-        $.post("/handlers/get_current_user.php", (data, status) => {
-          let json = JSON.parse(data);
-          if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
-          location.reload();
-        });
-      });
-    } else {
-      $.post("/handlers/get_current_user.php", (data, status) => {
-        let json = JSON.parse(data);
-        if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
-        location.reload();
-      });
-    }
+                  $.post("/handlers/get_current_user.php", (data, status) => {
+                    let json = JSON.parse(data);
+                    if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
+                    location.reload();
+                  });
+                }
+              }, "image/png");
+            });
+          } else {
+            $.post("/handlers/get_current_user.php", (data, status) => {
+              let json = JSON.parse(data);
+              if (test != false) pdf.save(siteName + '-' + json.fname + json.lname + '.pdf');
+              location.reload();
+            });
+          }
+      };
+    }, "image/png");
   });
 }
