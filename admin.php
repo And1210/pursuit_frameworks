@@ -1,4 +1,6 @@
 <?php
+	ini_set('session.gc_maxlifetime', 7200);
+	session_set_cookie_params(7200);
 	session_start();
 
 	if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false || !isset($_SESSION["loggedin"])){
