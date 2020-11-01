@@ -1,7 +1,7 @@
 <?php
-  ini_set('session.gc_maxlifetime', 7200);
-session_set_cookie_params(7200);
-session_start();
+	ini_set('session.cookie_lifetime', 31536000);
+	ini_set('session.gc_maxlifetime', 31536000);
+	session_start();
 
   require_once "../db/config.php";
 
@@ -9,7 +9,7 @@ session_start();
     if (isset($_SESSION["selected_id"])) {
       $query = "SELECT * FROM ".$_POST["form"]." WHERE user_id=".$_SESSION["selected_id"];
     } else {
-      $query = "SELECT * FROM ".$_POST["form"]." WHERE user_id=".$_SESSION["id"];  
+      $query = "SELECT * FROM ".$_POST["form"]." WHERE user_id=".$_SESSION["id"];
     }
     $conn = $link->prepare($query);
     $suc = $conn->execute();

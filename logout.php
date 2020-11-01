@@ -1,7 +1,7 @@
 <?php
-  ini_set('session.gc_maxlifetime', 7200);
-session_set_cookie_params(7200);
-session_start();
+	ini_set('session.cookie_lifetime', 31536000);
+	ini_set('session.gc_maxlifetime', 31536000);
+	session_start();
 
   // Unset all of the session variables.
   $_SESSION = array();
