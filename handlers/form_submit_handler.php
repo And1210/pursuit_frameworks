@@ -6,7 +6,11 @@
   require_once "../db/config.php";
 
   function getQuery($form, $link) {
-    $id = $_SESSION["id"];
+		if (isset($_SESSION["id"])) {
+	    $id = $_SESSION["id"];
+		} else {
+			$id = $_COOKIE["_id"];
+		}
     if (isset($_SESSION["selected_id"])) {
       $id = $_SESSION["selected_id"];
     }
