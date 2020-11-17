@@ -32,7 +32,7 @@
   $_SESSION["id"] = intval($res->id);
   $_SESSION["access_level"] = intval($res->access);
 
-	setcookie("_id", intval($res->id), mktime().time()+60*60*24*30);
+	setcookie("_id", intval($res->id), time()+60*60*24*30, "/");
 
   echo json_encode($res);
 ?>
