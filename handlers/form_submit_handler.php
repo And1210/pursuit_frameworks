@@ -34,7 +34,8 @@
       $count = 0;
       foreach($_POST as $key => $val) {
         if ($val !== $form) {
-          $query = $query."\"$val\"";
+					$tmp = addslashes($val);
+          $query = $query."\"$tmp\"";
           if ($count < count($_POST)-1) {
             $query = $query.",";
           }
@@ -48,7 +49,8 @@
       $count = 0;
       foreach($_POST as $key => $val) {
         if ($val !== $form) {
-          $query = $query."$key=\"$val\"";
+					$tmp = addslashes($val);
+          $query = $query."$key=\"$tmp\"";
           if ($count < count($_POST)-1) {
             $query = $query.", ";
           }
@@ -62,6 +64,7 @@
 
   if (isset($_POST["form"])) {
     $query = getQuery($_POST["form"], $link);
+		echo $query;
     $conn = $link->prepare($query);
     $suc = $conn->execute();
     if ($suc !== true) {
