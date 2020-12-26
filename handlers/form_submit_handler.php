@@ -64,7 +64,6 @@
 
   if (isset($_POST["form"])) {
     $query = getQuery($_POST["form"], $link);
-		echo $query;
     $conn = $link->prepare($query);
     $suc = $conn->execute();
     if ($suc !== true) {
