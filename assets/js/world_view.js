@@ -58,6 +58,8 @@ function load() {
         if (v == "impact_neg" || v == "impact_pos") {
           if (json[v] == '') {
             $('#'+v).val("Me: \nOthers: \nWorld: ");
+          } else {
+            $('#'+v).val(json[v]);
           }
         } else {
           $('#'+v).val(json[v]);
