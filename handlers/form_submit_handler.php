@@ -35,7 +35,7 @@
       foreach($_POST as $key => $val) {
         if ($val !== $form) {
 					$tmp = addslashes($val);
-          $query = $query."\"$tmp\"";
+          $query = $query."'$tmp'";
           if ($count < count($_POST)-1) {
             $query = $query.",";
           }
@@ -50,7 +50,7 @@
       foreach($_POST as $key => $val) {
         if ($val !== $form) {
 					$tmp = addslashes($val);
-          $query = $query."$key=\"$tmp\"";
+          $query = $query."$key='$tmp'";
           if ($count < count($_POST)-1) {
             $query = $query.", ";
           }

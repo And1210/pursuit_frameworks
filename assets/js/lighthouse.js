@@ -24,7 +24,7 @@ function save() {
   let dataString = "form=lighthouse&";
   for (let i in inputs) {
     let end = i >= inputs.length-1 ? '' : '&';
-    let data = input_data[i]==undefined ? '' : input_data[i];
+    let data = input_data[i]==undefined ? '' : encodeURIComponent(input_data[i]);
     dataString += inputs[i]+"="+data+end;
   }
 

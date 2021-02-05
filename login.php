@@ -49,6 +49,7 @@
           <p style="font-size: 10pt;">Welcome to the Pursuit Leadership Portal.<br><br>
             <i>The intention of this site is for your Pursuit Guide to facilitate you in uncovering your authentic leadership through these 100% original frameworks and tools. Upon completion, we recommend that your personal materials are removed and not remain on this site for an extended period of time.</i>
           </p>
+					<p style="font-size: 9pt;"><b>This site uses cookies to improve your experience. By logging in you are agreeing to the use of these cookies.</b></p>
         </div>
       </div>
       <div class="row" style="padding-bottom: 20px;">
