@@ -170,7 +170,7 @@
 				</div>
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">
-					<p class="copyright"><br>Copyright &copy; 2007-2020 Pursuit
+					<p class="copyright"><br>Copyright &copy; 2007-<?php echo date("Y") ?> Pursuit
 						Development Labs Inc. All Rights Reserved.</p>
 				</div>
 				<br>
