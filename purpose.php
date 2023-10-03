@@ -117,7 +117,7 @@
 				<div class="row" align="center">
 					<div class="col-md-6 d-flex flex-column">
 						<div class="encase encase-blue breathe-right" style="padding: 10px;">
-							<h6 class="subtitle purpose-page"><b>Purpose Statment Draft #1</b></h6>
+							<h6 class="subtitle purpose-page"><b>Purpose Statement Draft #1</b></h6>
 							<div class="subtitle" align="left">I exist to...</div>
 							<div class="form-group flex-grow-1 d-flex flex-column">
 								<textarea class="form-control flex-grow-1 green" placeholder="What? [Intent]" id="exist_to"></textarea>
@@ -140,7 +140,7 @@
 								<textarea class="form-control flex-grow-1	no-border large-input" id="purpose_statement"></textarea>
 							</div>
 						</div>
-						<h6 class="subtitle purpose-page"><b>Purpose Statment Handle</b></h6>
+						<h6 class="subtitle purpose-page"><b>Purpose Statement Handle</b></h6>
 						<input type="text" class="input purple" style="width: 75%;" id="handle">
 					</div>
 				</div>
